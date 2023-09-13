@@ -1,0 +1,15 @@
+{
+    "name": "xaraya-modules/composer",
+    "description": "Xaraya Composer Packages",
+    "homepage": "https://xaraya-modules.github.io/composer/",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "composer/satis": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/satis": true
+        }
+    }
+}

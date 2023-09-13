@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "all.json": {
+            "sha1": "29cc218aa12c1620a39ad155666affbc97cce676"
+        }
+    },
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": [
+        "xaraya/modules"
+    ]
+}

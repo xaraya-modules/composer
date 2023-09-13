@@ -1,0 +1,16 @@
+{
+    "name": "xaraya-modules/composer",
+    "homepage": "https://xaraya-modules.github.io/composer/",
+    "description": "Xaraya Composer Packages",
+    "output-dir": "docs",
+    "include-filename": "all.json",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikespub/xaraya-modules"
+        }
+    ],
+    "require-all": true,
+    "require-dependencies": true,
+    "require-dev-dependencies": true
+}
