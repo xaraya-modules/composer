@@ -2,7 +2,7 @@
 
 ### Package Repository
 
-- https://github-org.mikespub.net/composer/
+- https://xaraya-modules.github.io/composer/
 
 ### Initial Setup
 
