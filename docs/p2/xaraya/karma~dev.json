@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/karma": [
+            {
+                "name": "xaraya/karma",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/karma.git",
+                    "reference": "2e571960f1f9dfbe3f762df24f5d52167a4fb35a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/karma/zipball/2e571960f1f9dfbe3f762df24f5d52167a4fb35a",
+                    "reference": "2e571960f1f9dfbe3f762df24f5d52167a4fb35a",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:59:40+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A generic Web 2.0 module",
+                "homepage": "https://github.com/xaraya-modules/karma",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/karma/tree/master",
+                    "issues": "https://github.com/xaraya-modules/karma/issues"
+                }
+            }
+        ]
+    }
+}

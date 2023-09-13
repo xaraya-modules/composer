@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/uploads": [
+            {
+                "name": "xaraya/uploads",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/uploads.git",
+                    "reference": "57be8ff92b60e7d93bf1365682265c2d708793cb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/uploads/zipball/57be8ff92b60e7d93bf1365682265c2d708793cb",
+                    "reference": "57be8ff92b60e7d93bf1365682265c2d708793cb",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:56:32+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Upload/Download File Handler",
+                "homepage": "https://github.com/xaraya-modules/uploads",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/uploads/tree/master",
+                    "issues": "https://github.com/xaraya-modules/uploads/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/mime": [
+            {
+                "name": "xaraya/mime",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/mime.git",
+                    "reference": "fb0bf9a8d250703379a2190d97c144d15f22afb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/mime/zipball/fb0bf9a8d250703379a2190d97c144d15f22afb9",
+                    "reference": "fb0bf9a8d250703379a2190d97c144d15f22afb9",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:59+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Hook based module that returns the content-type of a given file.",
+                "homepage": "https://github.com/xaraya-modules/mime",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/mime/tree/master",
+                    "issues": "https://github.com/xaraya-modules/mime/issues"
+                }
+            }
+        ]
+    }
+}

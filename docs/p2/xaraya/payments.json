@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "xaraya/payments": [
+            {
+                "name": "xaraya/payments",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/payments.git",
+                    "reference": "9666aa3e478fe166a491617504d58fdde5976bd0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/payments/zipball/9666aa3e478fe166a491617504d58fdde5976bd0",
+                    "reference": "9666aa3e478fe166a491617504d58fdde5976bd0",
+                    "shasum": ""
+                },
+                "time": "2022-04-14T21:47:30+00:00",
+                "type": "xaraya-module",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage ebanking/ecommerce payments",
+                "homepage": "https://github.com/mikespub/xaraya-payments",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/payments/tree/1.0.0",
+                    "issues": "https://github.com/xaraya-modules/payments/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/sitemapper": [
+            {
+                "name": "xaraya/sitemapper",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/sitemapper.git",
+                    "reference": "e300add438a48b8cc78ddf482a9ed51f1471f86f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/sitemapper/zipball/e300add438a48b8cc78ddf482a9ed51f1471f86f",
+                    "reference": "e300add438a48b8cc78ddf482a9ed51f1471f86f",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Module to create a site map",
+                "homepage": "https://github.com/mikespub/xaraya-sitemapper",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/sitemapper/tree/1.0.0",
+                    "issues": "https://github.com/xaraya-modules/sitemapper/issues"
+                }
+            }
+        ]
+    }
+}

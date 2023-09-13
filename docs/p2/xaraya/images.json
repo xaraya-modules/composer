@@ -1,0 +1,76 @@
+{
+    "packages": {
+        "xaraya/images": [
+            {
+                "name": "xaraya/images",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/images.git",
+                    "reference": "51f6dca7770b5b59d54c8076db3168bcb3f8c6dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/images/zipball/51f6dca7770b5b59d54c8076db3168bcb3f8c6dd",
+                    "reference": "51f6dca7770b5b59d54c8076db3168bcb3f8c6dd",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                "homepage": "https://github.com/mikespub/xaraya-images",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/images/tree/1.1.1",
+                    "issues": "https://github.com/xaraya-modules/images/issues"
+                }
+            },
+            {
+                "name": "xaraya/images",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/images.git",
+                    "reference": "7376c141b4d35dcd5108173f5974eefc792d938c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/images/zipball/7376c141b4d35dcd5108173f5974eefc792d938c",
+                    "reference": "7376c141b4d35dcd5108173f5974eefc792d938c",
+                    "shasum": ""
+                },
+                "time": "2022-06-22T18:51:38+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                "homepage": "https://github.com/xaraya-modules/images",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/images/tree/1.1.2",
+                    "issues": "https://github.com/xaraya-modules/images/issues"
+                }
+            }
+        ]
+    }
+}

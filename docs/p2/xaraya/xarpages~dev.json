@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/xarpages": [
+            {
+                "name": "xaraya/xarpages",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/xarpages.git",
+                    "reference": "47951912f94e34d5f329b1cd33d288a0b0dbc942"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/xarpages/zipball/47951912f94e34d5f329b1cd33d288a0b0dbc942",
+                    "reference": "47951912f94e34d5f329b1cd33d288a0b0dbc942",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:56:58+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Static pages administration",
+                "homepage": "https://github.com/xaraya-modules/xarpages",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/xarpages/tree/master",
+                    "issues": "https://github.com/xaraya-modules/xarpages/issues"
+                }
+            }
+        ]
+    }
+}

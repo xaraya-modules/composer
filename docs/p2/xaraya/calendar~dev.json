@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "xaraya/calendar": [
+            {
+                "name": "xaraya/calendar",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/calendar.git",
+                    "reference": "7c4cf65428e1ba1b6305e105065dfe97282566b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/7c4cf65428e1ba1b6305e105065dfe97282566b3",
+                    "reference": "7c4cf65428e1ba1b6305e105065dfe97282566b3",
+                    "shasum": ""
+                },
+                "time": "2023-01-09T18:17:40+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/",
+                        "/pear/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Calendar System",
+                "homepage": "https://github.com/xaraya-modules/calendar",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/calendar/tree/master",
+                    "issues": "https://github.com/xaraya-modules/calendar/issues"
+                }
+            }
+        ]
+    }
+}

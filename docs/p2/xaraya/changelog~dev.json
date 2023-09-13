@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "xaraya/changelog": [
+            {
+                "name": "xaraya/changelog",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/changelog.git",
+                    "reference": "d1ba9e7b621d89d0f1ff31ffea77f689f304227b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/changelog/zipball/d1ba9e7b621d89d0f1ff31ffea77f689f304227b",
+                    "reference": "d1ba9e7b621d89d0f1ff31ffea77f689f304227b",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2023-01-18T13:34:26+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Keep track of changes to module items",
+                "homepage": "https://github.com/xaraya-modules/changelog",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/changelog/tree/master",
+                    "issues": "https://github.com/xaraya-modules/changelog/issues"
+                }
+            }
+        ]
+    }
+}

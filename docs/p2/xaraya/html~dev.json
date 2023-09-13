@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/html": [
+            {
+                "name": "xaraya/html",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/html.git",
+                    "reference": "6397e8017f6255b3eba9d3f3a1068a475b333eb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/html/zipball/6397e8017f6255b3eba9d3f3a1068a475b333eb0",
+                    "reference": "6397e8017f6255b3eba9d3f3a1068a475b333eb0",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:28+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Configure the allowed HTML or your site",
+                "homepage": "https://github.com/xaraya-modules/html",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/html/tree/master",
+                    "issues": "https://github.com/xaraya-modules/html/issues"
+                }
+            }
+        ]
+    }
+}

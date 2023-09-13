@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/sitetools": [
+            {
+                "name": "xaraya/sitetools",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/sitetools.git",
+                    "reference": "5b97cd859a13b6787ecbc38c2311b4741bf74642"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/sitetools/zipball/5b97cd859a13b6787ecbc38c2311b4741bf74642",
+                    "reference": "5b97cd859a13b6787ecbc38c2311b4741bf74642",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:48+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Set of tools for site and database maintenance",
+                "homepage": "https://github.com/xaraya-modules/sitetools",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/sitetools/tree/master",
+                    "issues": "https://github.com/xaraya-modules/sitetools/issues"
+                }
+            }
+        ]
+    }
+}

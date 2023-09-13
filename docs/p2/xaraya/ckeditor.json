@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/ckeditor": [
+            {
+                "name": "xaraya/ckeditor",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/ckeditor.git",
+                    "reference": "5657c3b37796616494a90d27cf5f8361ef223f0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/ckeditor/zipball/5657c3b37796616494a90d27cf5f8361ef223f0a",
+                    "reference": "5657c3b37796616494a90d27cf5f8361ef223f0a",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A WYSIWYG editor module",
+                "homepage": "https://github.com/mikespub/xaraya-ckeditor",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/ckeditor/tree/2.2.0",
+                    "issues": "https://github.com/xaraya-modules/ckeditor/issues"
+                }
+            }
+        ]
+    }
+}

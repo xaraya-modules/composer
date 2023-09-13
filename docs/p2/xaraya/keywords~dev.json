@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/keywords": [
+            {
+                "name": "xaraya/keywords",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/keywords.git",
+                    "reference": "9aeb9bc06e5136498e7f06e9f6940370905ca95f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/keywords/zipball/9aeb9bc06e5136498e7f06e9f6940370905ca95f",
+                    "reference": "9aeb9bc06e5136498e7f06e9f6940370905ca95f",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:58:10+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                "homepage": "https://github.com/xaraya-modules/keywords",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/keywords/tree/master",
+                    "issues": "https://github.com/xaraya-modules/keywords/issues"
+                }
+            }
+        ]
+    }
+}

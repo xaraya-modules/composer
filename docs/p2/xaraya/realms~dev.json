@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/realms": [
+            {
+                "name": "xaraya/realms",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/realms.git",
+                    "reference": "3c3160128a316c9f8e0c6fb204fde7ffaf10e1d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/realms/zipball/3c3160128a316c9f8e0c6fb204fde7ffaf10e1d3",
+                    "reference": "3c3160128a316c9f8e0c6fb204fde7ffaf10e1d3",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:38+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A module for managing multi-realm sites",
+                "homepage": "https://github.com/xaraya-modules/realms",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/realms/tree/master",
+                    "issues": "https://github.com/xaraya-modules/realms/issues"
+                }
+            }
+        ]
+    }
+}

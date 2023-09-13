@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/eav": [
+            {
+                "name": "xaraya/eav",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/eav.git",
+                    "reference": "03b5078e516fec74414f65c90fbadcb57fd1322e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/eav/zipball/03b5078e516fec74414f65c90fbadcb57fd1322e",
+                    "reference": "03b5078e516fec74414f65c90fbadcb57fd1322e",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:25+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A module that implements EAV",
+                "homepage": "https://github.com/xaraya-modules/eav",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/eav/tree/master",
+                    "issues": "https://github.com/xaraya-modules/eav/issues"
+                }
+            }
+        ]
+    }
+}

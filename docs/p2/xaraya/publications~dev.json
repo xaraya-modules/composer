@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "xaraya/publications": [
+            {
+                "name": "xaraya/publications",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/publications.git",
+                    "reference": "80d2913dbb69068ddfe8721f94497b61753a904d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/publications/zipball/80d2913dbb69068ddfe8721f94497b61753a904d",
+                    "reference": "80d2913dbb69068ddfe8721f94497b61753a904d",
+                    "shasum": ""
+                },
+                "time": "2023-01-15T17:41:24+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/",
+                        "/class/lib/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage publications on a Xaraya site",
+                "homepage": "https://github.com/xaraya-modules/publications",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/publications/tree/master",
+                    "issues": "https://github.com/xaraya-modules/publications/issues"
+                }
+            }
+        ]
+    }
+}

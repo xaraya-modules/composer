@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "xaraya/reminders": [
+            {
+                "name": "xaraya/reminders",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/reminders.git",
+                    "reference": "665ff4189a7c4ca624197bc469cffb4742fc55a7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/reminders/zipball/665ff4189a7c4ca624197bc469cffb4742fc55a7",
+                    "reference": "665ff4189a7c4ca624197bc469cffb4742fc55a7",
+                    "shasum": ""
+                },
+                "time": "2022-04-14T21:47:30+00:00",
+                "type": "xaraya-module",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Sends email reminders to users",
+                "homepage": "https://github.com/mikespub/xaraya-reminders",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/reminders/tree/1.0.0",
+                    "issues": "https://github.com/xaraya-modules/reminders/issues"
+                }
+            }
+        ]
+    }
+}

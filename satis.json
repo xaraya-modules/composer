@@ -8,6 +8,146 @@
         {
             "type": "vcs",
             "url": "https://github.com/mikespub/xaraya-modules"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/apischemas"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/cachemanager"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/cacher"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/calendar"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/changelog"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/ckeditor"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/comments"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/crispbb"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/eav"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/hitcount"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/html"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/images"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/karma"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/keywords"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/logconfig"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/messages"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/mime"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/otp"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/payments"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/publications"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/pubsub"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/ratings"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/realms"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/release"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/reminders"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/scheduler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/scraper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/sitemapper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/sitetools"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/translations"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/uploads"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/workflow"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/wurfl"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/xarayatesting"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/xarpages"
         }
     ],
     "require-all": true,

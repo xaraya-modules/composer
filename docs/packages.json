@@ -2,11 +2,46 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "29cc218aa12c1620a39ad155666affbc97cce676"
+            "sha1": "ba12155e26ecd753e318e825451aef386b278c31"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
     "available-packages": [
-        "xaraya/modules"
+        "xaraya/apischemas",
+        "xaraya/cachemanager",
+        "xaraya/cacher",
+        "xaraya/calendar",
+        "xaraya/changelog",
+        "xaraya/ckeditor",
+        "xaraya/comments",
+        "xaraya/crispbb",
+        "xaraya/eav",
+        "xaraya/hitcount",
+        "xaraya/html",
+        "xaraya/images",
+        "xaraya/karma",
+        "xaraya/keywords",
+        "xaraya/logconfig",
+        "xaraya/messages",
+        "xaraya/mime",
+        "xaraya/modules",
+        "xaraya/otp",
+        "xaraya/payments",
+        "xaraya/publications",
+        "xaraya/pubsub",
+        "xaraya/ratings",
+        "xaraya/realms",
+        "xaraya/release",
+        "xaraya/reminders",
+        "xaraya/scheduler",
+        "xaraya/scraper",
+        "xaraya/sitemapper",
+        "xaraya/sitetools",
+        "xaraya/translations",
+        "xaraya/uploads",
+        "xaraya/workflow",
+        "xaraya/wurfl",
+        "xaraya/xarayatesting",
+        "xaraya/xarpages"
     ]
 }

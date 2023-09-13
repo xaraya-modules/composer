@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/logconfig": [
+            {
+                "name": "xaraya/logconfig",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/logconfig.git",
+                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/logconfig/zipball/8741fdce622bc91ca3221c30da0c07948459ef5b",
+                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b",
+                    "shasum": ""
+                },
+                "time": "2022-12-29T10:18:17+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Module for Configuration the Logging System",
+                "homepage": "https://github.com/xaraya-modules/logconfig",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/logconfig/tree/master",
+                    "issues": "https://github.com/xaraya-modules/logconfig/issues"
+                }
+            }
+        ]
+    }
+}

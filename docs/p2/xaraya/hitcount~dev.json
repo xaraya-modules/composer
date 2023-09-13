@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/hitcount": [
+            {
+                "name": "xaraya/hitcount",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/hitcount.git",
+                    "reference": "903a5540a1040af08ddc44279c2931fc6c0d2daa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/hitcount/zipball/903a5540a1040af08ddc44279c2931fc6c0d2daa",
+                    "reference": "903a5540a1040af08ddc44279c2931fc6c0d2daa",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:58:03+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Count displays of module items",
+                "homepage": "https://github.com/xaraya-modules/hitcount",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/hitcount/tree/master",
+                    "issues": "https://github.com/xaraya-modules/hitcount/issues"
+                }
+            }
+        ]
+    }
+}

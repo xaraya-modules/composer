@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/crispbb": [
+            {
+                "name": "xaraya/crispbb",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/crispbb.git",
+                    "reference": "c7ade26666c37ec72c0e278d704120ba434c23b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/crispbb/zipball/c7ade26666c37ec72c0e278d704120ba434c23b2",
+                    "reference": "c7ade26666c37ec72c0e278d704120ba434c23b2",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:58:32+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Feature rich forum module for Xaraya",
+                "homepage": "https://github.com/xaraya-modules/crispbb",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/crispbb/tree/master",
+                    "issues": "https://github.com/xaraya-modules/crispbb/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/xarayatesting": [
+            {
+                "name": "xaraya/xarayatesting",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/xarayatesting.git",
+                    "reference": "70ce4cf09d8e123655ea605635918e1dc2d9cda2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/xarayatesting/zipball/70ce4cf09d8e123655ea605635918e1dc2d9cda2",
+                    "reference": "70ce4cf09d8e123655ea605635918e1dc2d9cda2",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:14+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Module with QA checks and unit tests",
+                "homepage": "https://github.com/mikespub/xaraya-xarayatesting",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/xarayatesting/tree/1.0.0",
+                    "issues": "https://github.com/xaraya-modules/xarayatesting/issues"
+                }
+            }
+        ]
+    }
+}

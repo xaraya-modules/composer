@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/translations": [
+            {
+                "name": "xaraya/translations",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/translations.git",
+                    "reference": "c220886de2ae8d7eb875f9f8bede788c1236e058"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/translations/zipball/c220886de2ae8d7eb875f9f8bede788c1236e058",
+                    "reference": "c220886de2ae8d7eb875f9f8bede788c1236e058",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:59:46+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Translations handling",
+                "homepage": "https://github.com/xaraya-modules/translations",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/translations/tree/master",
+                    "issues": "https://github.com/xaraya-modules/translations/issues"
+                }
+            }
+        ]
+    }
+}

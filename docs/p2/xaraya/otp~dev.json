@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/otp": [
+            {
+                "name": "xaraya/otp",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/otp.git",
+                    "reference": "7250c7b37449bc9cdfee856adc5b26643ffca3c6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/otp/zipball/7250c7b37449bc9cdfee856adc5b26643ffca3c6",
+                    "reference": "7250c7b37449bc9cdfee856adc5b26643ffca3c6",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:44+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A generic Web 2.0 module",
+                "homepage": "https://github.com/xaraya-modules/otp",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/otp/tree/master",
+                    "issues": "https://github.com/xaraya-modules/otp/issues"
+                }
+            }
+        ]
+    }
+}

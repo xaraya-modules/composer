@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/release": [
+            {
+                "name": "xaraya/release",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/release.git",
+                    "reference": "534daebf78d6197bf6f2c174e31edc229895198e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/release/zipball/534daebf78d6197bf6f2c174e31edc229895198e",
+                    "reference": "534daebf78d6197bf6f2c174e31edc229895198e",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Registration and Release information for themes and modules",
+                "homepage": "https://github.com/mikespub/xaraya-release",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/release/tree/0.4.1",
+                    "issues": "https://github.com/xaraya-modules/release/issues"
+                }
+            }
+        ]
+    }
+}

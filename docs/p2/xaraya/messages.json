@@ -1,0 +1,76 @@
+{
+    "packages": {
+        "xaraya/messages": [
+            {
+                "name": "xaraya/messages",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/messages.git",
+                    "reference": "2d147bb63759e5f7022214160a96235001d64929"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/2d147bb63759e5f7022214160a96235001d64929",
+                    "reference": "2d147bb63759e5f7022214160a96235001d64929",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Xaraya Messages module",
+                "homepage": "https://github.com/mikespub/xaraya-messages",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/messages/tree/1.9.1",
+                    "issues": "https://github.com/xaraya-modules/messages/issues"
+                }
+            },
+            {
+                "name": "xaraya/messages",
+                "version": "1.9.2",
+                "version_normalized": "1.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/messages.git",
+                    "reference": "9138f647c266b0901dbc308f1856441e7be81e0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/9138f647c266b0901dbc308f1856441e7be81e0a",
+                    "reference": "9138f647c266b0901dbc308f1856441e7be81e0a",
+                    "shasum": ""
+                },
+                "time": "2022-05-29T12:27:37+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Xaraya Messages module",
+                "homepage": "https://github.com/xaraya-modules/messages",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/messages/tree/1.9.2",
+                    "issues": "https://github.com/xaraya-modules/messages/issues"
+                }
+            }
+        ]
+    }
+}

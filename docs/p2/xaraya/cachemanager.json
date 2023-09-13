@@ -1,0 +1,211 @@
+{
+    "packages": {
+        "xaraya/cachemanager": [
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "272533a3ad846e7a0dc0e571fcdd45b0b3c56aae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/272533a3ad846e7a0dc0e571fcdd45b0b3c56aae",
+                    "reference": "272533a3ad846e7a0dc0e571fcdd45b0b3c56aae",
+                    "shasum": ""
+                },
+                "time": "2022-04-14T21:47:30+00:00",
+                "type": "xaraya-module",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/mikespub/xaraya-cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.1",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            },
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "c127c751b599079080400b22a74b15316b404cbd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/c127c751b599079080400b22a74b15316b404cbd",
+                    "reference": "c127c751b599079080400b22a74b15316b404cbd",
+                    "shasum": ""
+                },
+                "time": "2022-05-29T20:48:12+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/xaraya-modules/cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.2",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            },
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "998ddfac73ff2bad41b80f83982adff800066569"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/998ddfac73ff2bad41b80f83982adff800066569",
+                    "reference": "998ddfac73ff2bad41b80f83982adff800066569",
+                    "shasum": ""
+                },
+                "time": "2023-01-14T12:26:44+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/xaraya-modules/cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.3",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            },
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.4",
+                "version_normalized": "2.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "ee7e2eff0c55b35d27ecf91e12de9b74f009232c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/ee7e2eff0c55b35d27ecf91e12de9b74f009232c",
+                    "reference": "ee7e2eff0c55b35d27ecf91e12de9b74f009232c",
+                    "shasum": ""
+                },
+                "time": "2023-01-14T15:38:11+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/xaraya-modules/cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.4",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            },
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "156bfd6aa0a16d640903159812f30a69ed0c21f7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/156bfd6aa0a16d640903159812f30a69ed0c21f7",
+                    "reference": "156bfd6aa0a16d640903159812f30a69ed0c21f7",
+                    "shasum": ""
+                },
+                "time": "2023-01-15T14:04:21+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/xaraya-modules/cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.5",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            },
+            {
+                "name": "xaraya/cachemanager",
+                "version": "2.4.6",
+                "version_normalized": "2.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cachemanager.git",
+                    "reference": "8b591870a3b894925234a44da7dfcdc580f473df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/8b591870a3b894925234a44da7dfcdc580f473df",
+                    "reference": "8b591870a3b894925234a44da7dfcdc580f473df",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2023-01-17T20:05:27+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage the output cache system of Xaraya",
+                "homepage": "https://github.com/xaraya-modules/cachemanager",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cachemanager/tree/2.4.6",
+                    "issues": "https://github.com/xaraya-modules/cachemanager/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/ratings": [
+            {
+                "name": "xaraya/ratings",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/ratings.git",
+                    "reference": "b5e2695d4630b750c1c9a4c46c5e8c5b0717de28"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/ratings/zipball/b5e2695d4630b750c1c9a4c46c5e8c5b0717de28",
+                    "reference": "b5e2695d4630b750c1c9a4c46c5e8c5b0717de28",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:14+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Rate Xaraya items",
+                "homepage": "https://github.com/mikespub/xaraya-ratings",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/ratings/tree/2.0.0",
+                    "issues": "https://github.com/xaraya-modules/ratings/issues"
+                }
+            }
+        ]
+    }
+}

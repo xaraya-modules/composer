@@ -1,0 +1,33 @@
+{
+    "packages": {
+        "xaraya/publications": [
+            {
+                "name": "xaraya/publications",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/publications.git",
+                    "reference": "53ed0dcc1986e8d0e398c1f66ad8a73ffef45464"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/publications/zipball/53ed0dcc1986e8d0e398c1f66ad8a73ffef45464",
+                    "reference": "53ed0dcc1986e8d0e398c1f66ad8a73ffef45464",
+                    "shasum": ""
+                },
+                "time": "2022-04-14T21:47:30+00:00",
+                "type": "xaraya-module",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Manage publications on a Xaraya site",
+                "homepage": "https://github.com/mikespub/xaraya-publications",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/publications/tree/2.0.0",
+                    "issues": "https://github.com/xaraya-modules/publications/issues"
+                }
+            }
+        ]
+    }
+}

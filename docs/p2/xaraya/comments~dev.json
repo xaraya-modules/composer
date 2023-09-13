@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/comments": [
+            {
+                "name": "xaraya/comments",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/comments.git",
+                    "reference": "1709741c0585a439a8306caf02b9b250c1e20eac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/comments/zipball/1709741c0585a439a8306caf02b9b250c1e20eac",
+                    "reference": "1709741c0585a439a8306caf02b9b250c1e20eac",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:50:31+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Allows users to post comments on items",
+                "homepage": "https://github.com/xaraya-modules/comments",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/comments/tree/master",
+                    "issues": "https://github.com/xaraya-modules/comments/issues"
+                }
+            }
+        ]
+    }
+}

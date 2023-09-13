@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/cacher": [
+            {
+                "name": "xaraya/cacher",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/cacher.git",
+                    "reference": "7f18bef235533db6f5d5d8d5473ec70e09c4f841"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/cacher/zipball/7f18bef235533db6f5d5d8d5473ec70e09c4f841",
+                    "reference": "7f18bef235533db6f5d5d8d5473ec70e09c4f841",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:48:43+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A generic Web 2.0 module",
+                "homepage": "https://github.com/xaraya-modules/cacher",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/cacher/tree/master",
+                    "issues": "https://github.com/xaraya-modules/cacher/issues"
+                }
+            }
+        ]
+    }
+}

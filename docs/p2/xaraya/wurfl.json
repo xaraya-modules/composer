@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "xaraya/wurfl": [
+            {
+                "name": "xaraya/wurfl",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/wurfl.git",
+                    "reference": "d7af2b5a9c183ab9441a67e820318fc063233671"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/wurfl/zipball/d7af2b5a9c183ab9441a67e820318fc063233671",
+                    "reference": "d7af2b5a9c183ab9441a67e820318fc063233671",
+                    "shasum": ""
+                },
+                "time": "2022-04-15T15:02:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "A wrapper module for the WURFL API",
+                "homepage": "https://github.com/mikespub/xaraya-wurfl",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/wurfl/tree/1.0.0",
+                    "issues": "https://github.com/xaraya-modules/wurfl/issues"
+                }
+            }
+        ]
+    }
+}

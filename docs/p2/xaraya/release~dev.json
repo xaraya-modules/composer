@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/release": [
+            {
+                "name": "xaraya/release",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/release.git",
+                    "reference": "b693251bb1d0f29bf3a643e25e5427d2c957cc4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/release/zipball/b693251bb1d0f29bf3a643e25e5427d2c957cc4e",
+                    "reference": "b693251bb1d0f29bf3a643e25e5427d2c957cc4e",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:35+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Registration and Release information for themes and modules",
+                "homepage": "https://github.com/xaraya-modules/release",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/release/tree/master",
+                    "issues": "https://github.com/xaraya-modules/release/issues"
+                }
+            }
+        ]
+    }
+}

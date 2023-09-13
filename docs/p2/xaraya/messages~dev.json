@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "xaraya/messages": [
+            {
+                "name": "xaraya/messages",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/messages.git",
+                    "reference": "f13c8f8c9e4e36695621241288d6ba29a9df4ae4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/f13c8f8c9e4e36695621241288d6ba29a9df4ae4",
+                    "reference": "f13c8f8c9e4e36695621241288d6ba29a9df4ae4",
+                    "shasum": ""
+                },
+                "time": "2022-12-27T18:57:11+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Xaraya Messages module",
+                "homepage": "https://github.com/xaraya-modules/messages",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/messages/tree/master",
+                    "issues": "https://github.com/xaraya-modules/messages/issues"
+                }
+            }
+        ]
+    }
+}
