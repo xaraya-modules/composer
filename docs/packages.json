@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "ba12155e26ecd753e318e825451aef386b278c31"
+            "sha1": "0082688082ecd067ee91c5e2fe71f397e7b5d7e0"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
@@ -21,6 +21,7 @@
         "xaraya/images",
         "xaraya/karma",
         "xaraya/keywords",
+        "xaraya/library",
         "xaraya/logconfig",
         "xaraya/messages",
         "xaraya/mime",

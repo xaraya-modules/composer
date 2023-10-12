@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "xaraya/library": [
+            {
+                "name": "xaraya/library",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/library.git",
+                    "reference": "1e9d203500253abab0dc4d7547671e6b9d1325ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/1e9d203500253abab0dc4d7547671e6b9d1325ec",
+                    "reference": "1e9d203500253abab0dc4d7547671e6b9d1325ec",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "mikespub/php-epub-meta": "dev-main"
+                },
+                "time": "2023-10-12T19:02:01+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Library of books from Calibre or elsewhere",
+                "homepage": "https://github.com/xaraya-modules/library",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/library/tree/main",
+                    "issues": "https://github.com/xaraya-modules/library/issues"
+                }
+            }
+        ]
+    }
+}

@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/calendar.git",
-                    "reference": "7c4cf65428e1ba1b6305e105065dfe97282566b3"
+                    "reference": "940c161e7d21a45823fe238e75a7f2ae68675adc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/7c4cf65428e1ba1b6305e105065dfe97282566b3",
-                    "reference": "7c4cf65428e1ba1b6305e105065dfe97282566b3",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/940c161e7d21a45823fe238e75a7f2ae68675adc",
+                    "reference": "940c161e7d21a45823fe238e75a7f2ae68675adc",
                     "shasum": ""
                 },
-                "time": "2023-01-09T18:17:40+00:00",
+                "time": "2023-10-01T19:11:19+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

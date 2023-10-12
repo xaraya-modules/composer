@@ -67,6 +67,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/xaraya-modules/library"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xaraya-modules/logconfig"
         },
         {

@@ -8,13 +8,33 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "5da423beeea09e93190a42aba0139f7efb8de563"
+                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/5da423beeea09e93190a42aba0139f7efb8de563",
-                    "reference": "5da423beeea09e93190a42aba0139f7efb8de563",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/8d8294edefbd1e16e730beb5378d1f67b7837a93",
+                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93",
                     "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
                 },
                 "suggest": {
                     "xaraya/apischemas": "Play with API schemas",
@@ -53,7 +73,7 @@
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2023-01-09T14:29:29+00:00",
+                "time": "2023-10-06T20:37:39+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {

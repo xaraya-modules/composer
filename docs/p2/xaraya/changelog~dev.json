@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/changelog.git",
-                    "reference": "d1ba9e7b621d89d0f1ff31ffea77f689f304227b"
+                    "reference": "ba2f0722146c4a93e40c17e5c5282cc19c14fcf5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/changelog/zipball/d1ba9e7b621d89d0f1ff31ffea77f689f304227b",
-                    "reference": "d1ba9e7b621d89d0f1ff31ffea77f689f304227b",
+                    "url": "https://api.github.com/repos/xaraya-modules/changelog/zipball/ba2f0722146c4a93e40c17e5c5282cc19c14fcf5",
+                    "reference": "ba2f0722146c4a93e40c17e5c5282cc19c14fcf5",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-01-18T13:34:26+00:00",
+                "time": "2023-10-11T20:29:01+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

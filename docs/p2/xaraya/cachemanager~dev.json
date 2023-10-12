@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/cachemanager.git",
-                    "reference": "44030525930a287d96ef48b42ff3a900a9807b68"
+                    "reference": "6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/44030525930a287d96ef48b42ff3a900a9807b68",
-                    "reference": "44030525930a287d96ef48b42ff3a900a9807b68",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb",
+                    "reference": "6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-02-19T15:25:23+00:00",
+                "time": "2023-10-07T12:24:08+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
