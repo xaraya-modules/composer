@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/logconfig.git",
-                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b"
+                    "reference": "f9196bd44f72c9729dae2c33fdc86b90cd05100f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/logconfig/zipball/8741fdce622bc91ca3221c30da0c07948459ef5b",
-                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b",
+                    "url": "https://api.github.com/repos/xaraya-modules/logconfig/zipball/f9196bd44f72c9729dae2c33fdc86b90cd05100f",
+                    "reference": "f9196bd44f72c9729dae2c33fdc86b90cd05100f",
                     "shasum": ""
                 },
-                "time": "2022-12-29T10:18:17+00:00",
+                "time": "2023-11-08T16:03:50+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

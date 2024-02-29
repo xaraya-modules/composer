@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93"
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/8d8294edefbd1e16e730beb5378d1f67b7837a93",
-                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
                     "shasum": ""
                 },
                 "require": {
@@ -26,6 +26,7 @@
                     "xaraya/hitcount": "dev-master",
                     "xaraya/images": "dev-master",
                     "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
                     "xaraya/logconfig": "dev-master",
                     "xaraya/messages": "dev-master",
                     "xaraya/mime": "dev-master",
@@ -51,6 +52,7 @@
                     "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
                     "xaraya/karma": "A generic Web 2.0 module",
                     "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
                     "xaraya/logconfig": "Module for Configuration the Logging System",
                     "xaraya/messages": "Xaraya Messages module",
                     "xaraya/mime": "Hook based module that returns the content-type of a given file.",
@@ -73,7 +75,7 @@
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2023-10-06T20:37:39+00:00",
+                "time": "2023-10-12T19:29:07+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {
@@ -94,7 +96,7 @@
                 ],
                 "description": "Collection of modules to extend Xaraya's functionality",
                 "support": {
-                    "source": "https://github.com/mikespub/xaraya-modules/tree/master"
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
                 }
             }
         ]

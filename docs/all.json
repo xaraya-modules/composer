@@ -140,19 +140,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/apischemas.git",
-                    "reference": "a0966692d0a8b3e6f5703d78f2339d67508f71ed"
+                    "reference": "5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/a0966692d0a8b3e6f5703d78f2339d67508f71ed",
-                    "reference": "a0966692d0a8b3e6f5703d78f2339d67508f71ed",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f",
+                    "reference": "5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f",
                     "shasum": ""
                 },
                 "require": {
                     "mevdschee/php-crud-api": "^2.14",
                     "nikic/fast-route": "dev-master"
                 },
-                "time": "2023-10-01T19:24:19+00:00",
+                "time": "2023-12-20T14:16:50+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -387,18 +387,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/cachemanager.git",
-                    "reference": "6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb"
+                    "reference": "091ce83b496ad7d31828929890faf93e584eb15d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb",
-                    "reference": "6f3e152f2967fea2e8ba8a0b7e0114f02a3253bb",
+                    "url": "https://api.github.com/repos/xaraya-modules/cachemanager/zipball/091ce83b496ad7d31828929890faf93e584eb15d",
+                    "reference": "091ce83b496ad7d31828929890faf93e584eb15d",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-10-07T12:24:08+00:00",
+                "time": "2023-11-02T11:06:33+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -593,6 +593,42 @@
                     "issues": "https://github.com/xaraya-modules/calendar/issues"
                 }
             },
+            "2.2.1": {
+                "name": "xaraya/calendar",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/calendar.git",
+                    "reference": "af18adfded2df6f5bee5cb4c0fac0908a96697ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/af18adfded2df6f5bee5cb4c0fac0908a96697ce",
+                    "reference": "af18adfded2df6f5bee5cb4c0fac0908a96697ce",
+                    "shasum": ""
+                },
+                "time": "2023-11-20T09:58:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/",
+                        "/pear/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Calendar System",
+                "homepage": "https://github.com/xaraya-modules/calendar",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/calendar/tree/2.2.1",
+                    "issues": "https://github.com/xaraya-modules/calendar/issues"
+                }
+            },
             "dev-master": {
                 "name": "xaraya/calendar",
                 "version": "dev-master",
@@ -600,15 +636,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/calendar.git",
-                    "reference": "940c161e7d21a45823fe238e75a7f2ae68675adc"
+                    "reference": "af18adfded2df6f5bee5cb4c0fac0908a96697ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/940c161e7d21a45823fe238e75a7f2ae68675adc",
-                    "reference": "940c161e7d21a45823fe238e75a7f2ae68675adc",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/af18adfded2df6f5bee5cb4c0fac0908a96697ce",
+                    "reference": "af18adfded2df6f5bee5cb4c0fac0908a96697ce",
                     "shasum": ""
                 },
-                "time": "2023-10-01T19:11:19+00:00",
+                "time": "2023-11-20T09:58:13+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -626,7 +662,7 @@
                 "description": "Calendar System",
                 "homepage": "https://github.com/xaraya-modules/calendar",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/calendar/tree/master",
+                    "source": "https://github.com/xaraya-modules/calendar/tree/2.2.1",
                     "issues": "https://github.com/xaraya-modules/calendar/issues"
                 }
             }
@@ -961,15 +997,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/comments.git",
-                    "reference": "1709741c0585a439a8306caf02b9b250c1e20eac"
+                    "reference": "7dae3c97300e0d2250faa32ffd5e066bbe899e69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/comments/zipball/1709741c0585a439a8306caf02b9b250c1e20eac",
-                    "reference": "1709741c0585a439a8306caf02b9b250c1e20eac",
+                    "url": "https://api.github.com/repos/xaraya-modules/comments/zipball/7dae3c97300e0d2250faa32ffd5e066bbe899e69",
+                    "reference": "7dae3c97300e0d2250faa32ffd5e066bbe899e69",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:50:31+00:00",
+                "time": "2023-11-08T16:03:20+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -1530,19 +1566,19 @@
             }
         },
         "xaraya/library": {
-            "dev-main": {
+            "2.4.0": {
                 "name": "xaraya/library",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/library.git",
-                    "reference": "1e9d203500253abab0dc4d7547671e6b9d1325ec"
+                    "reference": "f5dfad987a49f2f069e5a9f22c8fa02795032c51"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/1e9d203500253abab0dc4d7547671e6b9d1325ec",
-                    "reference": "1e9d203500253abab0dc4d7547671e6b9d1325ec",
+                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/f5dfad987a49f2f069e5a9f22c8fa02795032c51",
+                    "reference": "f5dfad987a49f2f069e5a9f22c8fa02795032c51",
                     "shasum": ""
                 },
                 "conflict": {
@@ -1551,7 +1587,121 @@
                 "require-dev": {
                     "mikespub/php-epub-meta": "dev-main"
                 },
-                "time": "2023-10-12T19:02:01+00:00",
+                "time": "2023-10-12T22:34:13+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Library of books from Calibre or elsewhere",
+                "homepage": "https://github.com/xaraya-modules/library",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/library/tree/2.4.0",
+                    "issues": "https://github.com/xaraya-modules/library/issues"
+                }
+            },
+            "2.4.1": {
+                "name": "xaraya/library",
+                "version": "2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/library.git",
+                    "reference": "adaa166ee7009b5ac79d777af69e0425ec6779d5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/adaa166ee7009b5ac79d777af69e0425ec6779d5",
+                    "reference": "adaa166ee7009b5ac79d777af69e0425ec6779d5",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "mikespub/php-epub-meta": "dev-main"
+                },
+                "time": "2023-10-15T10:49:00+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Library of books from Calibre or elsewhere",
+                "homepage": "https://github.com/xaraya-modules/library",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/library/tree/2.4.1",
+                    "issues": "https://github.com/xaraya-modules/library/issues"
+                }
+            },
+            "2.4.2": {
+                "name": "xaraya/library",
+                "version": "2.4.2",
+                "version_normalized": "2.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/library.git",
+                    "reference": "fe24066775bc24de7d6406e2c21a24dec96d6f0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/fe24066775bc24de7d6406e2c21a24dec96d6f0b",
+                    "reference": "fe24066775bc24de7d6406e2c21a24dec96d6f0b",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "mikespub/php-epub-meta": "dev-main"
+                },
+                "time": "2023-10-16T22:03:49+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Library of books from Calibre or elsewhere",
+                "homepage": "https://github.com/xaraya-modules/library",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/library/tree/2.4.2",
+                    "issues": "https://github.com/xaraya-modules/library/issues"
+                }
+            },
+            "dev-main": {
+                "name": "xaraya/library",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/library.git",
+                    "reference": "0faee128285f2042f5ad9edc91a9cd75ea813f9a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/library/zipball/0faee128285f2042f5ad9edc91a9cd75ea813f9a",
+                    "reference": "0faee128285f2042f5ad9edc91a9cd75ea813f9a",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "mikespub/php-epub-meta": "dev-main"
+                },
+                "time": "2023-12-20T09:51:20+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -1613,15 +1763,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/logconfig.git",
-                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b"
+                    "reference": "f9196bd44f72c9729dae2c33fdc86b90cd05100f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/logconfig/zipball/8741fdce622bc91ca3221c30da0c07948459ef5b",
-                    "reference": "8741fdce622bc91ca3221c30da0c07948459ef5b",
+                    "url": "https://api.github.com/repos/xaraya-modules/logconfig/zipball/f9196bd44f72c9729dae2c33fdc86b90cd05100f",
+                    "reference": "f9196bd44f72c9729dae2c33fdc86b90cd05100f",
                     "shasum": ""
                 },
-                "time": "2022-12-29T10:18:17+00:00",
+                "time": "2023-11-08T16:03:50+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -1721,15 +1871,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/messages.git",
-                    "reference": "f13c8f8c9e4e36695621241288d6ba29a9df4ae4"
+                    "reference": "47de742757c69b3f5161730fba9cab92f5d554b3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/f13c8f8c9e4e36695621241288d6ba29a9df4ae4",
-                    "reference": "f13c8f8c9e4e36695621241288d6ba29a9df4ae4",
+                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/47de742757c69b3f5161730fba9cab92f5d554b3",
+                    "reference": "47de742757c69b3f5161730fba9cab92f5d554b3",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:57:11+00:00",
+                "time": "2023-11-08T16:02:47+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -1794,15 +1944,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/mime.git",
-                    "reference": "fb0bf9a8d250703379a2190d97c144d15f22afb9"
+                    "reference": "a43313747ceee7b18870257b9f2daeec46aad112"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/mime/zipball/fb0bf9a8d250703379a2190d97c144d15f22afb9",
-                    "reference": "fb0bf9a8d250703379a2190d97c144d15f22afb9",
+                    "url": "https://api.github.com/repos/xaraya-modules/mime/zipball/a43313747ceee7b18870257b9f2daeec46aad112",
+                    "reference": "a43313747ceee7b18870257b9f2daeec46aad112",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:57:59+00:00",
+                "time": "2023-11-08T16:02:22+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -2016,19 +2166,19 @@
                     "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.3"
                 }
             },
-            "dev-master": {
+            "v2.4.4": {
                 "name": "xaraya/modules",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "v2.4.4",
+                "version_normalized": "2.4.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93"
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/8d8294edefbd1e16e730beb5378d1f67b7837a93",
-                    "reference": "8d8294edefbd1e16e730beb5378d1f67b7837a93",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
                     "shasum": ""
                 },
                 "require": {
@@ -2041,6 +2191,7 @@
                     "xaraya/hitcount": "dev-master",
                     "xaraya/images": "dev-master",
                     "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
                     "xaraya/logconfig": "dev-master",
                     "xaraya/messages": "dev-master",
                     "xaraya/mime": "dev-master",
@@ -2066,6 +2217,7 @@
                     "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
                     "xaraya/karma": "A generic Web 2.0 module",
                     "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
                     "xaraya/logconfig": "Module for Configuration the Logging System",
                     "xaraya/messages": "Xaraya Messages module",
                     "xaraya/mime": "Hook based module that returns the content-type of a given file.",
@@ -2088,7 +2240,201 @@
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2023-10-06T20:37:39+00:00",
+                "time": "2023-10-12T19:29:07+00:00",
+                "type": "xaraya-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Collection of modules to extend Xaraya's functionality",
+                "support": {
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                }
+            },
+            "v2.4.5": {
+                "name": "xaraya/modules",
+                "version": "v2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub/xaraya-modules.git",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
+                },
+                "suggest": {
+                    "xaraya/apischemas": "Play with API schemas",
+                    "xaraya/cachemanager": "Manage the output cache system of Xaraya",
+                    "xaraya/cacher": "A generic Web 2.0 module",
+                    "xaraya/calendar": "Calendar System",
+                    "xaraya/changelog": "Keep track of changes to module items",
+                    "xaraya/ckeditor": "A WYSIWYG editor module",
+                    "xaraya/comments": "Allows users to post comments on items",
+                    "xaraya/crispbb": "Feature rich forum module for Xaraya",
+                    "xaraya/eav": "A module that implements EAV",
+                    "xaraya/hitcount": "Count displays of module items",
+                    "xaraya/html": "Configure the allowed HTML or your site",
+                    "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                    "xaraya/karma": "A generic Web 2.0 module",
+                    "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
+                    "xaraya/logconfig": "Module for Configuration the Logging System",
+                    "xaraya/messages": "Xaraya Messages module",
+                    "xaraya/mime": "Hook based module that returns the content-type of a given file.",
+                    "xaraya/otp": "A generic Web 2.0 module",
+                    "xaraya/payments": "Manage ebanking/ecommerce payments",
+                    "xaraya/publications": "Manage publications on a Xaraya site",
+                    "xaraya/pubsub": "Allow users to subscribe to updates to events",
+                    "xaraya/ratings": "Rate Xaraya items",
+                    "xaraya/realms": "A module for managing multi-realm sites",
+                    "xaraya/release": "Registration and Release information for themes and modules",
+                    "xaraya/reminders": "Sends email reminders to users",
+                    "xaraya/scheduler": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                    "xaraya/scraper": "A module for scraping HTML pages",
+                    "xaraya/sitemapper": "Module to create a site map",
+                    "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/translations": "Translations handling",
+                    "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
+                    "xaraya/wurfl": "A wrapper module for the WURFL API",
+                    "xaraya/xarayatesting": "Module with QA checks and unit tests",
+                    "xaraya/xarpages": "Static pages administration"
+                },
+                "time": "2023-10-12T19:29:07+00:00",
+                "type": "xaraya-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Collection of modules to extend Xaraya's functionality",
+                "support": {
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                }
+            },
+            "dev-master": {
+                "name": "xaraya/modules",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub/xaraya-modules.git",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
+                },
+                "suggest": {
+                    "xaraya/apischemas": "Play with API schemas",
+                    "xaraya/cachemanager": "Manage the output cache system of Xaraya",
+                    "xaraya/cacher": "A generic Web 2.0 module",
+                    "xaraya/calendar": "Calendar System",
+                    "xaraya/changelog": "Keep track of changes to module items",
+                    "xaraya/ckeditor": "A WYSIWYG editor module",
+                    "xaraya/comments": "Allows users to post comments on items",
+                    "xaraya/crispbb": "Feature rich forum module for Xaraya",
+                    "xaraya/eav": "A module that implements EAV",
+                    "xaraya/hitcount": "Count displays of module items",
+                    "xaraya/html": "Configure the allowed HTML or your site",
+                    "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                    "xaraya/karma": "A generic Web 2.0 module",
+                    "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
+                    "xaraya/logconfig": "Module for Configuration the Logging System",
+                    "xaraya/messages": "Xaraya Messages module",
+                    "xaraya/mime": "Hook based module that returns the content-type of a given file.",
+                    "xaraya/otp": "A generic Web 2.0 module",
+                    "xaraya/payments": "Manage ebanking/ecommerce payments",
+                    "xaraya/publications": "Manage publications on a Xaraya site",
+                    "xaraya/pubsub": "Allow users to subscribe to updates to events",
+                    "xaraya/ratings": "Rate Xaraya items",
+                    "xaraya/realms": "A module for managing multi-realm sites",
+                    "xaraya/release": "Registration and Release information for themes and modules",
+                    "xaraya/reminders": "Sends email reminders to users",
+                    "xaraya/scheduler": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                    "xaraya/scraper": "A module for scraping HTML pages",
+                    "xaraya/sitemapper": "Module to create a site map",
+                    "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/translations": "Translations handling",
+                    "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
+                    "xaraya/wurfl": "A wrapper module for the WURFL API",
+                    "xaraya/xarayatesting": "Module with QA checks and unit tests",
+                    "xaraya/xarpages": "Static pages administration"
+                },
+                "time": "2023-10-12T19:29:07+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {
@@ -2109,7 +2455,7 @@
                 ],
                 "description": "Collection of modules to extend Xaraya's functionality",
                 "support": {
-                    "source": "https://github.com/mikespub/xaraya-modules/tree/master"
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
                 }
             }
         },
@@ -2286,15 +2632,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/publications.git",
-                    "reference": "80d2913dbb69068ddfe8721f94497b61753a904d"
+                    "reference": "e29070e2d9619aa81b83d3249c77d4ce0703ac4d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/publications/zipball/80d2913dbb69068ddfe8721f94497b61753a904d",
-                    "reference": "80d2913dbb69068ddfe8721f94497b61753a904d",
+                    "url": "https://api.github.com/repos/xaraya-modules/publications/zipball/e29070e2d9619aa81b83d3249c77d4ce0703ac4d",
+                    "reference": "e29070e2d9619aa81b83d3249c77d4ce0703ac4d",
                     "shasum": ""
                 },
-                "time": "2023-01-15T17:41:24+00:00",
+                "time": "2023-11-08T15:52:24+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -2774,18 +3120,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/scheduler.git",
-                    "reference": "c6cc5286950650a0e3eab7091f05251f8a7bd025"
+                    "reference": "82176bcad43b97245b96fc4b7300314f97b03108"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/c6cc5286950650a0e3eab7091f05251f8a7bd025",
-                    "reference": "c6cc5286950650a0e3eab7091f05251f8a7bd025",
+                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/82176bcad43b97245b96fc4b7300314f97b03108",
+                    "reference": "82176bcad43b97245b96fc4b7300314f97b03108",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-01-17T20:00:24+00:00",
+                "time": "2023-11-08T16:02:00+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -3126,15 +3472,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/uploads.git",
-                    "reference": "57be8ff92b60e7d93bf1365682265c2d708793cb"
+                    "reference": "df128ff06e3fa536a6c815c25a0fc781d8d440c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/uploads/zipball/57be8ff92b60e7d93bf1365682265c2d708793cb",
-                    "reference": "57be8ff92b60e7d93bf1365682265c2d708793cb",
+                    "url": "https://api.github.com/repos/xaraya-modules/uploads/zipball/df128ff06e3fa536a6c815c25a0fc781d8d440c6",
+                    "reference": "df128ff06e3fa536a6c815c25a0fc781d8d440c6",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:56:32+00:00",
+                "time": "2023-11-08T15:48:09+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -3342,23 +3688,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/workflow.git",
-                    "reference": "f0d79c654dced8dfedf284bab144f10b5a4fef57"
+                    "reference": "b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/f0d79c654dced8dfedf284bab144f10b5a4fef57",
-                    "reference": "f0d79c654dced8dfedf284bab144f10b5a4fef57",
+                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3",
+                    "reference": "b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3",
                     "shasum": ""
                 },
                 "require": {
                     "psr/log": "^3.0",
-                    "symfony/event-dispatcher": "^6.3",
-                    "symfony/workflow": "^6.3"
+                    "symfony/event-dispatcher": "^6.4",
+                    "symfony/workflow": "^6.4"
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-10-11T20:29:33+00:00",
+                "time": "2023-12-21T20:37:12+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

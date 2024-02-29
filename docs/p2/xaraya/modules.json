@@ -191,6 +191,200 @@
                 "support": {
                     "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.3"
                 }
+            },
+            {
+                "name": "xaraya/modules",
+                "version": "v2.4.4",
+                "version_normalized": "2.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub/xaraya-modules.git",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
+                },
+                "suggest": {
+                    "xaraya/apischemas": "Play with API schemas",
+                    "xaraya/cachemanager": "Manage the output cache system of Xaraya",
+                    "xaraya/cacher": "A generic Web 2.0 module",
+                    "xaraya/calendar": "Calendar System",
+                    "xaraya/changelog": "Keep track of changes to module items",
+                    "xaraya/ckeditor": "A WYSIWYG editor module",
+                    "xaraya/comments": "Allows users to post comments on items",
+                    "xaraya/crispbb": "Feature rich forum module for Xaraya",
+                    "xaraya/eav": "A module that implements EAV",
+                    "xaraya/hitcount": "Count displays of module items",
+                    "xaraya/html": "Configure the allowed HTML or your site",
+                    "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                    "xaraya/karma": "A generic Web 2.0 module",
+                    "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
+                    "xaraya/logconfig": "Module for Configuration the Logging System",
+                    "xaraya/messages": "Xaraya Messages module",
+                    "xaraya/mime": "Hook based module that returns the content-type of a given file.",
+                    "xaraya/otp": "A generic Web 2.0 module",
+                    "xaraya/payments": "Manage ebanking/ecommerce payments",
+                    "xaraya/publications": "Manage publications on a Xaraya site",
+                    "xaraya/pubsub": "Allow users to subscribe to updates to events",
+                    "xaraya/ratings": "Rate Xaraya items",
+                    "xaraya/realms": "A module for managing multi-realm sites",
+                    "xaraya/release": "Registration and Release information for themes and modules",
+                    "xaraya/reminders": "Sends email reminders to users",
+                    "xaraya/scheduler": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                    "xaraya/scraper": "A module for scraping HTML pages",
+                    "xaraya/sitemapper": "Module to create a site map",
+                    "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/translations": "Translations handling",
+                    "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
+                    "xaraya/wurfl": "A wrapper module for the WURFL API",
+                    "xaraya/xarayatesting": "Module with QA checks and unit tests",
+                    "xaraya/xarpages": "Static pages administration"
+                },
+                "time": "2023-10-12T19:29:07+00:00",
+                "type": "xaraya-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Collection of modules to extend Xaraya's functionality",
+                "support": {
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                }
+            },
+            {
+                "name": "xaraya/modules",
+                "version": "v2.4.5",
+                "version_normalized": "2.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub/xaraya-modules.git",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
+                },
+                "suggest": {
+                    "xaraya/apischemas": "Play with API schemas",
+                    "xaraya/cachemanager": "Manage the output cache system of Xaraya",
+                    "xaraya/cacher": "A generic Web 2.0 module",
+                    "xaraya/calendar": "Calendar System",
+                    "xaraya/changelog": "Keep track of changes to module items",
+                    "xaraya/ckeditor": "A WYSIWYG editor module",
+                    "xaraya/comments": "Allows users to post comments on items",
+                    "xaraya/crispbb": "Feature rich forum module for Xaraya",
+                    "xaraya/eav": "A module that implements EAV",
+                    "xaraya/hitcount": "Count displays of module items",
+                    "xaraya/html": "Configure the allowed HTML or your site",
+                    "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                    "xaraya/karma": "A generic Web 2.0 module",
+                    "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
+                    "xaraya/logconfig": "Module for Configuration the Logging System",
+                    "xaraya/messages": "Xaraya Messages module",
+                    "xaraya/mime": "Hook based module that returns the content-type of a given file.",
+                    "xaraya/otp": "A generic Web 2.0 module",
+                    "xaraya/payments": "Manage ebanking/ecommerce payments",
+                    "xaraya/publications": "Manage publications on a Xaraya site",
+                    "xaraya/pubsub": "Allow users to subscribe to updates to events",
+                    "xaraya/ratings": "Rate Xaraya items",
+                    "xaraya/realms": "A module for managing multi-realm sites",
+                    "xaraya/release": "Registration and Release information for themes and modules",
+                    "xaraya/reminders": "Sends email reminders to users",
+                    "xaraya/scheduler": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                    "xaraya/scraper": "A module for scraping HTML pages",
+                    "xaraya/sitemapper": "Module to create a site map",
+                    "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/translations": "Translations handling",
+                    "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
+                    "xaraya/wurfl": "A wrapper module for the WURFL API",
+                    "xaraya/xarayatesting": "Module with QA checks and unit tests",
+                    "xaraya/xarpages": "Static pages administration"
+                },
+                "time": "2023-10-12T19:29:07+00:00",
+                "type": "xaraya-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Collection of modules to extend Xaraya's functionality",
+                "support": {
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                }
             }
         ]
     }
