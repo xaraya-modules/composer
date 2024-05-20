@@ -8,23 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/mime.git",
-                    "reference": "a43313747ceee7b18870257b9f2daeec46aad112"
+                    "reference": "76a1027788a3c696da637c490791cec5586eb3cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/mime/zipball/a43313747ceee7b18870257b9f2daeec46aad112",
-                    "reference": "a43313747ceee7b18870257b9f2daeec46aad112",
+                    "url": "https://api.github.com/repos/xaraya-modules/mime/zipball/76a1027788a3c696da637c490791cec5586eb3cd",
+                    "reference": "76a1027788a3c696da637c490791cec5586eb3cd",
                     "shasum": ""
                 },
-                "time": "2023-11-08T16:02:22+00:00",
+                "require": {
+                    "league/mime-type-detection": "^1.15"
+                },
+                "time": "2024-04-09T18:30:41+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
                     "classmap": [
                         "./"
-                    ],
-                    "exclude-from-classmap": [
-                        "/vendor/"
                     ]
                 },
                 "license": [

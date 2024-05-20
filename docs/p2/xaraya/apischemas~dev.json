@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/apischemas.git",
-                    "reference": "5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f"
+                    "reference": "cbe8d00b60e9cf637d9c324c656a479a81664caf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f",
-                    "reference": "5ccf3ebe0697018a8f5ff97bc85482fbcc6e311f",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/cbe8d00b60e9cf637d9c324c656a479a81664caf",
+                    "reference": "cbe8d00b60e9cf637d9c324c656a479a81664caf",
                     "shasum": ""
                 },
                 "require": {
                     "mevdschee/php-crud-api": "^2.14",
                     "nikic/fast-route": "dev-master"
                 },
-                "time": "2023-12-20T14:16:50+00:00",
+                "time": "2024-04-06T13:15:12+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

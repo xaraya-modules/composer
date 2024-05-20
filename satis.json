@@ -152,6 +152,26 @@
         {
             "type": "vcs",
             "url": "https://github.com/xaraya-modules/xarpages"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/twig"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/skeleton"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/webhooks"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/with-symfony"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xaraya-modules/with-laravel"
         }
     ],
     "require-all": true,

@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/ckeditor.git",
-                    "reference": "257f5e37a919860a271c8687d3444a7900bb16db"
+                    "reference": "b3dfadb98cf9ff618d61ef61144d74b45c1c1664"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/ckeditor/zipball/257f5e37a919860a271c8687d3444a7900bb16db",
-                    "reference": "257f5e37a919860a271c8687d3444a7900bb16db",
+                    "url": "https://api.github.com/repos/xaraya-modules/ckeditor/zipball/b3dfadb98cf9ff618d61ef61144d74b45c1c1664",
+                    "reference": "b3dfadb98cf9ff618d61ef61144d74b45c1c1664",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:49:40+00:00",
+                "time": "2024-04-08T11:10:13+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

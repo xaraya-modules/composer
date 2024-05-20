@@ -1,0 +1,40 @@
+{
+    "packages": {
+        "xaraya/twig": [
+            {
+                "name": "xaraya/twig",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/twig.git",
+                    "reference": "e8f1aa9dcffaae1c46211d9c21449930b41da47d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/twig/zipball/e8f1aa9dcffaae1c46211d9c21449930b41da47d",
+                    "reference": "e8f1aa9dcffaae1c46211d9c21449930b41da47d",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "twig/twig": "^3.8"
+                },
+                "time": "2024-05-04T14:16:36+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Use Twig template engine with Xaraya",
+                "homepage": "https://github.com/xaraya-modules/twig",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/twig/tree/2.5.2",
+                    "issues": "https://github.com/xaraya-modules/twig/issues"
+                }
+            }
+        ]
+    }
+}

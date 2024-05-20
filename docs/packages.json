@@ -2,7 +2,7 @@
     "packages": [],
     "includes": {
         "all.json": {
-            "sha1": "17b278dcea8a991f503a5bcce5557f9d16f9614c"
+            "sha1": "dc08dbee24322b9a194f2f266ebaad895e7caddd"
         }
     },
     "metadata-url": "/composer/p2/%package%.json",
@@ -38,8 +38,13 @@
         "xaraya/scraper",
         "xaraya/sitemapper",
         "xaraya/sitetools",
+        "xaraya/skeleton",
         "xaraya/translations",
+        "xaraya/twig",
         "xaraya/uploads",
+        "xaraya/webhooks",
+        "xaraya/with-laravel",
+        "xaraya/with-symfony",
         "xaraya/workflow",
         "xaraya/wurfl",
         "xaraya/xarayatesting",

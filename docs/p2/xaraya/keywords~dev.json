@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/keywords.git",
-                    "reference": "9aeb9bc06e5136498e7f06e9f6940370905ca95f"
+                    "reference": "ba6f20df0b4501547232ee2fe2c3f2eec30c21d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/keywords/zipball/9aeb9bc06e5136498e7f06e9f6940370905ca95f",
-                    "reference": "9aeb9bc06e5136498e7f06e9f6940370905ca95f",
+                    "url": "https://api.github.com/repos/xaraya-modules/keywords/zipball/ba6f20df0b4501547232ee2fe2c3f2eec30c21d4",
+                    "reference": "ba6f20df0b4501547232ee2fe2c3f2eec30c21d4",
                     "shasum": ""
                 },
-                "time": "2022-12-27T18:58:10+00:00",
+                "time": "2024-04-08T11:10:17+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {

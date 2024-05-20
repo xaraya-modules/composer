@@ -1,0 +1,623 @@
+{
+    "packages": {
+        "xaraya/with-laravel": [
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "e3e47eaadcda16d44f2d4d9cd0ee5cb66426c9f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/e3e47eaadcda16d44f2d4d9cd0ee5cb66426c9f0",
+                    "reference": "e3e47eaadcda16d44f2d4d9cd0ee5cb66426c9f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-11T21:47:50+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "App\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "The skeleton application for the Laravel framework.",
+                "keywords": [
+                    "framework",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.1.0",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "87678ff9426f93d7483716e0ade52720ecbc627f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/87678ff9426f93d7483716e0ade52720ecbc627f",
+                    "reference": "87678ff9426f93d7483716e0ade52720ecbc627f",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-12T11:03:15+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "The skeleton application for the Laravel framework.",
+                "keywords": [
+                    "framework",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.2.0",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.2.5",
+                "version_normalized": "0.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "c61e28e157216408449c9325927d923b8fa4b91a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/c61e28e157216408449c9325927d923b8fa4b91a",
+                    "reference": "c61e28e157216408449c9325927d923b8fa4b91a",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-12T11:26:50+00:00",
+                "type": "project",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "The skeleton application for the Laravel framework.",
+                "keywords": [
+                    "framework",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.2.5",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.2.6",
+                "version_normalized": "0.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "2250b87cfa49a780748acc817ad1ae07352a980a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/2250b87cfa49a780748acc817ad1ae07352a980a",
+                    "reference": "2250b87cfa49a780748acc817ad1ae07352a980a",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-12T11:33:19+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.2.6",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.2.7",
+                "version_normalized": "0.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "0bc4d67fd27cd903ba1c02b2cdeec814e7623421"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/0bc4d67fd27cd903ba1c02b2cdeec814e7623421",
+                    "reference": "0bc4d67fd27cd903ba1c02b2cdeec814e7623421",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-12T13:53:06+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.2.7",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.2.8",
+                "version_normalized": "0.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "d17cf41d2948578d29e1df6f5f5fef06b6853443"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/d17cf41d2948578d29e1df6f5f5fef06b6853443",
+                    "reference": "d17cf41d2948578d29e1df6f5f5fef06b6853443",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-12T14:19:57+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.2.8",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "c05911014b33db966eb52fee513eeb166f8a2fc8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/c05911014b33db966eb52fee513eeb166f8a2fc8",
+                    "reference": "c05911014b33db966eb52fee513eeb166f8a2fc8",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-14T14:18:24+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.3.0",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            {
+                "name": "xaraya/with-laravel",
+                "version": "0.4.0",
+                "version_normalized": "0.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/b181c66dddbf131870aab67e4d84f7c42421aad8",
+                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-04-19T10:44:51+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.4.0",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            }
+        ]
+    }
+}

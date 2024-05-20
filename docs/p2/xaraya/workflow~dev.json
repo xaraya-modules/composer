@@ -8,23 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/workflow.git",
-                    "reference": "b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3"
+                    "reference": "425055cc5125fb06dc3908b4dbc5caf0e2b84a8d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3",
-                    "reference": "b976a8c1dd6ed675d383c0ccd202f5a6e8e994a3",
+                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/425055cc5125fb06dc3908b4dbc5caf0e2b84a8d",
+                    "reference": "425055cc5125fb06dc3908b4dbc5caf0e2b84a8d",
                     "shasum": ""
                 },
                 "require": {
                     "psr/log": "^3.0",
-                    "symfony/event-dispatcher": "^6.4",
-                    "symfony/workflow": "^6.4"
+                    "symfony/event-dispatcher": "^6.4||^7.0",
+                    "symfony/workflow": "^6.4||^7.0"
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2023-12-21T20:37:12+00:00",
+                "time": "2024-04-08T16:01:32+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
