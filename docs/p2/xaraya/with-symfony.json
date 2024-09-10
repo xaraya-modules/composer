@@ -553,6 +553,90 @@
                     "source": "https://github.com/xaraya-modules/with-symfony/tree/0.5.0",
                     "issues": "https://github.com/xaraya-modules/with-symfony/issues"
                 }
+            },
+            {
+                "name": "xaraya/with-symfony",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-symfony.git",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^2.12",
+                    "doctrine/doctrine-migrations-bundle": "^3.3",
+                    "doctrine/orm": "^3.1",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "php": ">=8.2",
+                    "symfony/console": "7.1.*",
+                    "symfony/doctrine-messenger": "7.1.*",
+                    "symfony/dotenv": "7.1.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "7.1.*",
+                    "symfony/runtime": "7.1.*",
+                    "symfony/webhook": "7.1.*",
+                    "symfony/yaml": "7.1.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*",
+                    "symfony/polyfill-php82": "*"
+                },
+                "require-dev": {
+                    "symfony/maker-bundle": "^1.58"
+                },
+                "time": "2024-09-03T19:59:31+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "7.1.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\SymfonyApp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Xaraya\\SymfonyApp\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "description": "Integrate Xaraya with Symfony applications",
+                "homepage": "https://github.com/xaraya-modules/with-symfony",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.6.0",
+                    "issues": "https://github.com/xaraya-modules/with-symfony/issues"
+                }
             }
         ]
     }

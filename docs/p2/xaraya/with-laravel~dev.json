@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/with-laravel.git",
-                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8"
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/b181c66dddbf131870aab67e4d84f7c42421aad8",
-                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/84fc28e92d629b3160c75dc6df575dc0d1e786d9",
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9",
                     "shasum": ""
                 },
                 "require": {
@@ -31,7 +31,7 @@
                     "phpunit/phpunit": "^11.0.1",
                     "spatie/laravel-ignition": "^2.4"
                 },
-                "time": "2024-04-19T10:44:51+00:00",
+                "time": "2024-09-03T20:09:44+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "extra": {
@@ -74,7 +74,7 @@
                 "description": "Integrate Xaraya with Laravel applications",
                 "homepage": "https://github.com/xaraya-modules/with-laravel",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.4.0",
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.5.0",
                     "issues": "https://github.com/xaraya-modules/with-laravel/issues"
                 }
             }

@@ -2730,19 +2730,19 @@
                     "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
                 }
             },
-            "dev-master": {
+            "v2.5.0": {
                 "name": "xaraya/modules",
-                "version": "dev-master",
-                "version_normalized": "dev-master",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
-                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
                     "shasum": ""
                 },
                 "require": {
@@ -2797,14 +2797,121 @@
                     "xaraya/scraper": "A module for scraping HTML pages",
                     "xaraya/sitemapper": "Module to create a site map",
                     "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/skeleton": "Skeleton for a new Xaraya module",
                     "xaraya/translations": "Translations handling",
+                    "xaraya/twig": "Use Twig template engine with Xaraya",
                     "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/webhooks": "Webhooks to and from Xaraya",
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications",
                     "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
                     "xaraya/wurfl": "A wrapper module for the WURFL API",
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2023-10-12T19:29:07+00:00",
+                "time": "2024-05-20T10:53:56+00:00",
+                "type": "xaraya-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.4.x-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Collection of modules to extend Xaraya's functionality",
+                "support": {
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.5.0"
+                }
+            },
+            "dev-master": {
+                "name": "xaraya/modules",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mikespub/xaraya-modules.git",
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "xaraya/apischemas": "dev-master",
+                    "xaraya/cachemanager": "dev-master",
+                    "xaraya/calendar": "dev-master",
+                    "xaraya/changelog": "dev-master",
+                    "xaraya/ckeditor": "dev-master",
+                    "xaraya/comments": "dev-master",
+                    "xaraya/hitcount": "dev-master",
+                    "xaraya/images": "dev-master",
+                    "xaraya/keywords": "dev-master",
+                    "xaraya/library": "dev-main",
+                    "xaraya/logconfig": "dev-master",
+                    "xaraya/messages": "dev-master",
+                    "xaraya/mime": "dev-master",
+                    "xaraya/properties": "dev-master",
+                    "xaraya/publications": "dev-master",
+                    "xaraya/ratings": "dev-master",
+                    "xaraya/scheduler": "dev-master",
+                    "xaraya/uploads": "dev-master",
+                    "xaraya/workflow": "dev-master"
+                },
+                "suggest": {
+                    "xaraya/apischemas": "Play with API schemas",
+                    "xaraya/cachemanager": "Manage the output cache system of Xaraya",
+                    "xaraya/cacher": "A generic Web 2.0 module",
+                    "xaraya/calendar": "Calendar System",
+                    "xaraya/changelog": "Keep track of changes to module items",
+                    "xaraya/ckeditor": "A WYSIWYG editor module",
+                    "xaraya/comments": "Allows users to post comments on items",
+                    "xaraya/crispbb": "Feature rich forum module for Xaraya",
+                    "xaraya/eav": "A module that implements EAV",
+                    "xaraya/hitcount": "Count displays of module items",
+                    "xaraya/html": "Configure the allowed HTML or your site",
+                    "xaraya/images": "Handles image manipulation with resizing/cropping/scaling/rotating and various filters",
+                    "xaraya/karma": "A generic Web 2.0 module",
+                    "xaraya/keywords": "Assign keywords to module items (taxonomy) and look up items by keyword",
+                    "xaraya/library": "Library of books from Calibre or elsewhere",
+                    "xaraya/logconfig": "Module for Configuration the Logging System",
+                    "xaraya/messages": "Xaraya Messages module",
+                    "xaraya/mime": "Hook based module that returns the content-type of a given file.",
+                    "xaraya/otp": "A generic Web 2.0 module",
+                    "xaraya/payments": "Manage ebanking/ecommerce payments",
+                    "xaraya/publications": "Manage publications on a Xaraya site",
+                    "xaraya/pubsub": "Allow users to subscribe to updates to events",
+                    "xaraya/ratings": "Rate Xaraya items",
+                    "xaraya/realms": "A module for managing multi-realm sites",
+                    "xaraya/release": "Registration and Release information for themes and modules",
+                    "xaraya/reminders": "Sends email reminders to users",
+                    "xaraya/scheduler": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                    "xaraya/scraper": "A module for scraping HTML pages",
+                    "xaraya/sitemapper": "Module to create a site map",
+                    "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/skeleton": "Skeleton for a new Xaraya module",
+                    "xaraya/translations": "Translations handling",
+                    "xaraya/twig": "Use Twig template engine with Xaraya",
+                    "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/webhooks": "Webhooks to and from Xaraya",
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications",
+                    "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
+                    "xaraya/wurfl": "A wrapper module for the WURFL API",
+                    "xaraya/xarayatesting": "Module with QA checks and unit tests",
+                    "xaraya/xarpages": "Static pages administration"
+                },
+                "time": "2024-05-20T10:53:56+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {
@@ -2825,7 +2932,7 @@
                 ],
                 "description": "Collection of modules to extend Xaraya's functionality",
                 "support": {
-                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.5.0"
                 }
             }
         },
@@ -4530,6 +4637,59 @@
                     "issues": "https://github.com/xaraya-modules/webhooks/issues"
                 }
             },
+            "1.2.0": {
+                "name": "xaraya/webhooks",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/webhooks.git",
+                    "reference": "1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2",
+                    "reference": "1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/http-foundation": "^7.1"
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "nikic/fast-route": "^1.3",
+                    "xaraya/with-laravel": "^0.5",
+                    "xaraya/with-symfony": "^0.6"
+                },
+                "suggest": {
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications"
+                },
+                "time": "2024-09-03T20:13:48+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Webhooks to and from Xaraya",
+                "homepage": "https://github.com/xaraya-modules/webhooks",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.2.0",
+                    "issues": "https://github.com/xaraya-modules/webhooks/issues"
+                }
+            },
             "dev-main": {
                 "name": "xaraya/webhooks",
                 "version": "dev-main",
@@ -4537,30 +4697,30 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/webhooks.git",
-                    "reference": "422f0f05383f8f086072da58f359ecb3af5e74ea"
+                    "reference": "1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/422f0f05383f8f086072da58f359ecb3af5e74ea",
-                    "reference": "422f0f05383f8f086072da58f359ecb3af5e74ea",
+                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2",
+                    "reference": "1bcb8b9f22d1a9f175b42c38c3f826b7fcc3b0d2",
                     "shasum": ""
                 },
                 "require": {
-                    "symfony/http-foundation": "^7.0"
+                    "symfony/http-foundation": "^7.1"
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
                 "require-dev": {
                     "nikic/fast-route": "^1.3",
-                    "xaraya/with-laravel": "^0.4",
-                    "xaraya/with-symfony": "^0.5"
+                    "xaraya/with-laravel": "^0.5",
+                    "xaraya/with-symfony": "^0.6"
                 },
                 "suggest": {
                     "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
                     "xaraya/with-symfony": "Integrate Xaraya with Symfony applications"
                 },
-                "time": "2024-04-19T12:34:19+00:00",
+                "time": "2024-09-03T20:13:48+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -4580,7 +4740,7 @@
                 "description": "Webhooks to and from Xaraya",
                 "homepage": "https://github.com/xaraya-modules/webhooks",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.1.0",
+                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.2.0",
                     "issues": "https://github.com/xaraya-modules/webhooks/issues"
                 }
             }
@@ -5203,19 +5363,19 @@
                     "issues": "https://github.com/xaraya-modules/with-laravel/issues"
                 }
             },
-            "dev-main": {
+            "0.5.0": {
                 "name": "xaraya/with-laravel",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "0.5.0",
+                "version_normalized": "0.5.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/with-laravel.git",
-                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8"
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/b181c66dddbf131870aab67e4d84f7c42421aad8",
-                    "reference": "b181c66dddbf131870aab67e4d84f7c42421aad8",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/84fc28e92d629b3160c75dc6df575dc0d1e786d9",
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9",
                     "shasum": ""
                 },
                 "require": {
@@ -5233,7 +5393,83 @@
                     "phpunit/phpunit": "^11.0.1",
                     "spatie/laravel-ignition": "^2.4"
                 },
-                "time": "2024-04-19T10:44:51+00:00",
+                "time": "2024-09-03T20:09:44+00:00",
+                "type": "xaraya-module",
+                "extra": {
+                    "laravel": {
+                        "dont-discover": []
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\LaravelApp\\": "app/",
+                        "Database\\Factories\\": "database/factories/",
+                        "Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                        "@php artisan package:discover --ansi"
+                    ],
+                    "post-update-cmd": [
+                        "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+                    ],
+                    "post-create-project-cmd": [
+                        "@php artisan key:generate --ansi",
+                        "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+                        "@php artisan migrate --graceful --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Integrate Xaraya with Laravel applications",
+                "homepage": "https://github.com/xaraya-modules/with-laravel",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.5.0",
+                    "issues": "https://github.com/xaraya-modules/with-laravel/issues"
+                }
+            },
+            "dev-main": {
+                "name": "xaraya/with-laravel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-laravel.git",
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-laravel/zipball/84fc28e92d629b3160c75dc6df575dc0d1e786d9",
+                    "reference": "84fc28e92d629b3160c75dc6df575dc0d1e786d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "laravel/framework": "^11.0",
+                    "laravel/tinker": "^2.9",
+                    "php": "^8.2",
+                    "spatie/laravel-webhook-client": "^3.3"
+                },
+                "require-dev": {
+                    "fakerphp/faker": "^1.23",
+                    "laravel/pint": "^1.13",
+                    "laravel/sail": "^1.26",
+                    "mockery/mockery": "^1.6",
+                    "nunomaduro/collision": "^8.0",
+                    "phpunit/phpunit": "^11.0.1",
+                    "spatie/laravel-ignition": "^2.4"
+                },
+                "time": "2024-09-03T20:09:44+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "extra": {
@@ -5276,7 +5512,7 @@
                 "description": "Integrate Xaraya with Laravel applications",
                 "homepage": "https://github.com/xaraya-modules/with-laravel",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.4.0",
+                    "source": "https://github.com/xaraya-modules/with-laravel/tree/0.5.0",
                     "issues": "https://github.com/xaraya-modules/with-laravel/issues"
                 }
             }
@@ -5835,19 +6071,19 @@
                     "issues": "https://github.com/xaraya-modules/with-symfony/issues"
                 }
             },
-            "dev-main": {
+            "0.6.0": {
                 "name": "xaraya/with-symfony",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "0.6.0",
+                "version_normalized": "0.6.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/with-symfony.git",
-                    "reference": "48190b3d8aeeb07583fb97f05b0842efca973e27"
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/48190b3d8aeeb07583fb97f05b0842efca973e27",
-                    "reference": "48190b3d8aeeb07583fb97f05b0842efca973e27",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50",
                     "shasum": ""
                 },
                 "require": {
@@ -5857,14 +6093,14 @@
                     "ext-ctype": "*",
                     "ext-iconv": "*",
                     "php": ">=8.2",
-                    "symfony/console": "7.0.*",
-                    "symfony/doctrine-messenger": "7.0.*",
-                    "symfony/dotenv": "7.0.*",
+                    "symfony/console": "7.1.*",
+                    "symfony/doctrine-messenger": "7.1.*",
+                    "symfony/dotenv": "7.1.*",
                     "symfony/flex": "^2",
-                    "symfony/framework-bundle": "7.0.*",
-                    "symfony/runtime": "7.0.*",
-                    "symfony/webhook": "7.0.*",
-                    "symfony/yaml": "7.0.*"
+                    "symfony/framework-bundle": "7.1.*",
+                    "symfony/runtime": "7.1.*",
+                    "symfony/webhook": "7.1.*",
+                    "symfony/yaml": "7.1.*"
                 },
                 "conflict": {
                     "symfony/symfony": "*"
@@ -5882,13 +6118,12 @@
                 "require-dev": {
                     "symfony/maker-bundle": "^1.58"
                 },
-                "time": "2024-04-19T08:05:06+00:00",
-                "default-branch": true,
+                "time": "2024-09-03T19:59:31+00:00",
                 "type": "xaraya-module",
                 "extra": {
                     "symfony": {
                         "allow-contrib": false,
-                        "require": "7.0.*"
+                        "require": "7.1.*"
                     }
                 },
                 "autoload": {
@@ -5916,7 +6151,92 @@
                 "description": "Integrate Xaraya with Symfony applications",
                 "homepage": "https://github.com/xaraya-modules/with-symfony",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.5.0",
+                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.6.0",
+                    "issues": "https://github.com/xaraya-modules/with-symfony/issues"
+                }
+            },
+            "dev-main": {
+                "name": "xaraya/with-symfony",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/with-symfony.git",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine-bundle": "^2.12",
+                    "doctrine/doctrine-migrations-bundle": "^3.3",
+                    "doctrine/orm": "^3.1",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "php": ">=8.2",
+                    "symfony/console": "7.1.*",
+                    "symfony/doctrine-messenger": "7.1.*",
+                    "symfony/dotenv": "7.1.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "7.1.*",
+                    "symfony/runtime": "7.1.*",
+                    "symfony/webhook": "7.1.*",
+                    "symfony/yaml": "7.1.*"
+                },
+                "conflict": {
+                    "symfony/symfony": "*"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*",
+                    "symfony/polyfill-php82": "*"
+                },
+                "require-dev": {
+                    "symfony/maker-bundle": "^1.58"
+                },
+                "time": "2024-09-03T19:59:31+00:00",
+                "default-branch": true,
+                "type": "xaraya-module",
+                "extra": {
+                    "symfony": {
+                        "allow-contrib": false,
+                        "require": "7.1.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Xaraya\\SymfonyApp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Xaraya\\SymfonyApp\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    },
+                    "post-install-cmd": [
+                        "@auto-scripts"
+                    ],
+                    "post-update-cmd": [
+                        "@auto-scripts"
+                    ]
+                },
+                "description": "Integrate Xaraya with Symfony applications",
+                "homepage": "https://github.com/xaraya-modules/with-symfony",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.6.0",
                     "issues": "https://github.com/xaraya-modules/with-symfony/issues"
                 }
             }
@@ -6300,6 +6620,46 @@
                     "issues": "https://github.com/xaraya-modules/workflow/issues"
                 }
             },
+            "2.5.2": {
+                "name": "xaraya/workflow",
+                "version": "2.5.2",
+                "version_normalized": "2.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/workflow.git",
+                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/1b492aeb611998c5036278a72bdca920c4ffc218",
+                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218",
+                    "shasum": ""
+                },
+                "require": {
+                    "psr/log": "^3.0",
+                    "symfony/event-dispatcher": "^6.4||^7.1",
+                    "symfony/workflow": "^6.4||^7.1"
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2024-09-03T20:49:02+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Workflow Module based on the Galaxia Workflow Engine",
+                "homepage": "https://github.com/xaraya-modules/workflow",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/workflow/tree/2.5.2",
+                    "issues": "https://github.com/xaraya-modules/workflow/issues"
+                }
+            },
             "dev-master": {
                 "name": "xaraya/workflow",
                 "version": "dev-master",
@@ -6307,23 +6667,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/workflow.git",
-                    "reference": "425055cc5125fb06dc3908b4dbc5caf0e2b84a8d"
+                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/425055cc5125fb06dc3908b4dbc5caf0e2b84a8d",
-                    "reference": "425055cc5125fb06dc3908b4dbc5caf0e2b84a8d",
+                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/1b492aeb611998c5036278a72bdca920c4ffc218",
+                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218",
                     "shasum": ""
                 },
                 "require": {
                     "psr/log": "^3.0",
-                    "symfony/event-dispatcher": "^6.4||^7.0",
-                    "symfony/workflow": "^6.4||^7.0"
+                    "symfony/event-dispatcher": "^6.4||^7.1",
+                    "symfony/workflow": "^6.4||^7.1"
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2024-04-08T16:01:32+00:00",
+                "time": "2024-09-03T20:49:02+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -6337,7 +6697,7 @@
                 "description": "Workflow Module based on the Galaxia Workflow Engine",
                 "homepage": "https://github.com/xaraya-modules/workflow",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/workflow/tree/master",
+                    "source": "https://github.com/xaraya-modules/workflow/tree/2.5.2",
                     "issues": "https://github.com/xaraya-modules/workflow/issues"
                 }
             }

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339"
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/3f1bd92286fa1da4d981d1e5032bde020caf9339",
-                    "reference": "3f1bd92286fa1da4d981d1e5032bde020caf9339",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
+                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
                     "shasum": ""
                 },
                 "require": {
@@ -68,14 +68,19 @@
                     "xaraya/scraper": "A module for scraping HTML pages",
                     "xaraya/sitemapper": "Module to create a site map",
                     "xaraya/sitetools": "Set of tools for site and database maintenance",
+                    "xaraya/skeleton": "Skeleton for a new Xaraya module",
                     "xaraya/translations": "Translations handling",
+                    "xaraya/twig": "Use Twig template engine with Xaraya",
                     "xaraya/uploads": "Upload/Download File Handler",
+                    "xaraya/webhooks": "Webhooks to and from Xaraya",
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications",
                     "xaraya/workflow": "Workflow Module based on the Galaxia Workflow Engine",
                     "xaraya/wurfl": "A wrapper module for the WURFL API",
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2023-10-12T19:29:07+00:00",
+                "time": "2024-05-20T10:53:56+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {
@@ -96,7 +101,7 @@
                 ],
                 "description": "Collection of modules to extend Xaraya's functionality",
                 "support": {
-                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.4.5"
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.5.0"
                 }
             }
         ]

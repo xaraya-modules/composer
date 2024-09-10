@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/with-symfony.git",
-                    "reference": "48190b3d8aeeb07583fb97f05b0842efca973e27"
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/48190b3d8aeeb07583fb97f05b0842efca973e27",
-                    "reference": "48190b3d8aeeb07583fb97f05b0842efca973e27",
+                    "url": "https://api.github.com/repos/xaraya-modules/with-symfony/zipball/87e8ac2eaf244fbe33787e35c16b396164b69d50",
+                    "reference": "87e8ac2eaf244fbe33787e35c16b396164b69d50",
                     "shasum": ""
                 },
                 "require": {
@@ -23,14 +23,14 @@
                     "ext-ctype": "*",
                     "ext-iconv": "*",
                     "php": ">=8.2",
-                    "symfony/console": "7.0.*",
-                    "symfony/doctrine-messenger": "7.0.*",
-                    "symfony/dotenv": "7.0.*",
+                    "symfony/console": "7.1.*",
+                    "symfony/doctrine-messenger": "7.1.*",
+                    "symfony/dotenv": "7.1.*",
                     "symfony/flex": "^2",
-                    "symfony/framework-bundle": "7.0.*",
-                    "symfony/runtime": "7.0.*",
-                    "symfony/webhook": "7.0.*",
-                    "symfony/yaml": "7.0.*"
+                    "symfony/framework-bundle": "7.1.*",
+                    "symfony/runtime": "7.1.*",
+                    "symfony/webhook": "7.1.*",
+                    "symfony/yaml": "7.1.*"
                 },
                 "conflict": {
                     "symfony/symfony": "*"
@@ -48,13 +48,13 @@
                 "require-dev": {
                     "symfony/maker-bundle": "^1.58"
                 },
-                "time": "2024-04-19T08:05:06+00:00",
+                "time": "2024-09-03T19:59:31+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "extra": {
                     "symfony": {
                         "allow-contrib": false,
-                        "require": "7.0.*"
+                        "require": "7.1.*"
                     }
                 },
                 "autoload": {
@@ -82,7 +82,7 @@
                 "description": "Integrate Xaraya with Symfony applications",
                 "homepage": "https://github.com/xaraya-modules/with-symfony",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.5.0",
+                    "source": "https://github.com/xaraya-modules/with-symfony/tree/0.6.0",
                     "issues": "https://github.com/xaraya-modules/with-symfony/issues"
                 }
             }
