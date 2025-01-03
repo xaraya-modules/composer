@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/messages.git",
-                    "reference": "a2b965fb91ee05703117270098a3469834907104"
+                    "reference": "7a12e720cee443c79825db5760cc90b776a4c536"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/a2b965fb91ee05703117270098a3469834907104",
-                    "reference": "a2b965fb91ee05703117270098a3469834907104",
+                    "url": "https://api.github.com/repos/xaraya-modules/messages/zipball/7a12e720cee443c79825db5760cc90b776a4c536",
+                    "reference": "7a12e720cee443c79825db5760cc90b776a4c536",
                     "shasum": ""
                 },
-                "time": "2024-04-08T11:10:19+00:00",
+                "time": "2024-11-04T22:04:58+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -33,7 +33,7 @@
                 "description": "Xaraya Messages module",
                 "homepage": "https://github.com/xaraya-modules/messages",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/messages/tree/master",
+                    "source": "https://github.com/xaraya-modules/messages/tree/1.9.3",
                     "issues": "https://github.com/xaraya-modules/messages/issues"
                 }
             }

@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/apischemas.git",
-                    "reference": "cbe8d00b60e9cf637d9c324c656a479a81664caf"
+                    "reference": "3d72a8ce394cc4f26d10724c486c2364c27d660e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/cbe8d00b60e9cf637d9c324c656a479a81664caf",
-                    "reference": "cbe8d00b60e9cf637d9c324c656a479a81664caf",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/3d72a8ce394cc4f26d10724c486c2364c27d660e",
+                    "reference": "3d72a8ce394cc4f26d10724c486c2364c27d660e",
                     "shasum": ""
                 },
                 "require": {
                     "mevdschee/php-crud-api": "^2.14",
-                    "nikic/fast-route": "dev-master"
+                    "nikic/fast-route": "2.0.0-beta1"
                 },
-                "time": "2024-04-06T13:15:12+00:00",
+                "time": "2024-11-03T23:27:45+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -37,7 +37,7 @@
                 "description": "Play with API schemas",
                 "homepage": "https://github.com/xaraya-modules/apischemas",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/apischemas/tree/master",
+                    "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.0",
                     "issues": "https://github.com/xaraya-modules/apischemas/issues"
                 }
             }

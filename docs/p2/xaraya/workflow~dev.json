@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/workflow.git",
-                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218"
+                    "reference": "d3049e96e612dece027d698a5c5447e66973e293"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/1b492aeb611998c5036278a72bdca920c4ffc218",
-                    "reference": "1b492aeb611998c5036278a72bdca920c4ffc218",
+                    "url": "https://api.github.com/repos/xaraya-modules/workflow/zipball/d3049e96e612dece027d698a5c5447e66973e293",
+                    "reference": "d3049e96e612dece027d698a5c5447e66973e293",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2024-09-03T20:49:02+00:00",
+                "time": "2024-11-03T23:17:25+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -38,7 +38,7 @@
                 "description": "Workflow Module based on the Galaxia Workflow Engine",
                 "homepage": "https://github.com/xaraya-modules/workflow",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/workflow/tree/2.5.2",
+                    "source": "https://github.com/xaraya-modules/workflow/tree/2.5.4",
                     "issues": "https://github.com/xaraya-modules/workflow/issues"
                 }
             }

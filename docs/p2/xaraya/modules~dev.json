@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mikespub/xaraya-modules.git",
-                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9"
+                    "reference": "1742aa51f80e661c94a6b83b967f5c52516e8fdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
-                    "reference": "0cfdb1590c315eeb840333e3710e97b5a5ef29d9",
+                    "url": "https://api.github.com/repos/mikespub/xaraya-modules/zipball/1742aa51f80e661c94a6b83b967f5c52516e8fdb",
+                    "reference": "1742aa51f80e661c94a6b83b967f5c52516e8fdb",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "xaraya/hitcount": "dev-master",
                     "xaraya/images": "dev-master",
                     "xaraya/keywords": "dev-master",
-                    "xaraya/library": "dev-main",
+                    "xaraya/library": "^2.5",
                     "xaraya/logconfig": "dev-master",
                     "xaraya/messages": "dev-master",
                     "xaraya/mime": "dev-master",
@@ -35,7 +35,7 @@
                     "xaraya/ratings": "dev-master",
                     "xaraya/scheduler": "dev-master",
                     "xaraya/uploads": "dev-master",
-                    "xaraya/workflow": "dev-master"
+                    "xaraya/workflow": "^2.5"
                 },
                 "suggest": {
                     "xaraya/apischemas": "Play with API schemas",
@@ -80,12 +80,12 @@
                     "xaraya/xarayatesting": "Module with QA checks and unit tests",
                     "xaraya/xarpages": "Static pages administration"
                 },
-                "time": "2024-05-20T10:53:56+00:00",
+                "time": "2024-09-12T19:41:35+00:00",
                 "default-branch": true,
                 "type": "xaraya-bundle",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "2.4.x-dev"
+                        "dev-master": "2.5.x-dev"
                     }
                 },
                 "autoload": {
@@ -101,7 +101,7 @@
                 ],
                 "description": "Collection of modules to extend Xaraya's functionality",
                 "support": {
-                    "source": "https://github.com/mikespub/xaraya-modules/tree/v2.5.0"
+                    "source": "https://github.com/mikespub/xaraya-modules/tree/2.5.1"
                 }
             }
         ]

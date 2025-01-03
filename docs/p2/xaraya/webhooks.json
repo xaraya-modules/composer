@@ -502,6 +502,116 @@
                     "source": "https://github.com/xaraya-modules/webhooks/tree/1.2.0",
                     "issues": "https://github.com/xaraya-modules/webhooks/issues"
                 }
+            },
+            {
+                "name": "xaraya/webhooks",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/webhooks.git",
+                    "reference": "843bb4c13c77e187e7aae2c649cc6bac7a759434"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/843bb4c13c77e187e7aae2c649cc6bac7a759434",
+                    "reference": "843bb4c13c77e187e7aae2c649cc6bac7a759434",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/http-foundation": "^6.4||^7.1"
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "nikic/fast-route": "2.0.0-beta1",
+                    "xaraya/with-laravel": "^0.5",
+                    "xaraya/with-symfony": "^0.6"
+                },
+                "suggest": {
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications"
+                },
+                "time": "2024-11-03T23:14:26+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ]
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Webhooks to and from Xaraya",
+                "homepage": "https://github.com/xaraya-modules/webhooks",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.3.0",
+                    "issues": "https://github.com/xaraya-modules/webhooks/issues"
+                }
+            },
+            {
+                "name": "xaraya/webhooks",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/webhooks.git",
+                    "reference": "ce53e9f0a5017ceb29e6b49b474979fd247b74b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/ce53e9f0a5017ceb29e6b49b474979fd247b74b3",
+                    "reference": "ce53e9f0a5017ceb29e6b49b474979fd247b74b3",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/http-foundation": "^7.1"
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "require-dev": {
+                    "nikic/fast-route": "2.0.0-beta1",
+                    "xaraya/with-laravel": "^0.6",
+                    "xaraya/with-symfony": "^0.7"
+                },
+                "suggest": {
+                    "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
+                    "xaraya/with-symfony": "Integrate Xaraya with Symfony applications"
+                },
+                "time": "2024-11-13T20:18:40+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "var/",
+                        "vendor/nesbot/carbon/lazy/"
+                    ]
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd"
+                    }
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Webhooks to and from Xaraya",
+                "homepage": "https://github.com/xaraya-modules/webhooks",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.4.0",
+                    "issues": "https://github.com/xaraya-modules/webhooks/issues"
+                }
             }
         ]
     }
