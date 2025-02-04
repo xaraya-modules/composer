@@ -100,6 +100,82 @@
                     "source": "https://github.com/xaraya-modules/scheduler/tree/2.4.1",
                     "issues": "https://github.com/xaraya-modules/scheduler/issues"
                 }
+            },
+            {
+                "name": "xaraya/scheduler",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/scheduler.git",
+                    "reference": "df01eae7bec369eaba5e2b88d355b1165f7dd045"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/df01eae7bec369eaba5e2b88d355b1165f7dd045",
+                    "reference": "df01eae7bec369eaba5e2b88d355b1165f7dd045",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2025-01-14T22:29:44+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                "homepage": "https://github.com/xaraya-modules/scheduler",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/scheduler/tree/2.6.0",
+                    "issues": "https://github.com/xaraya-modules/scheduler/issues"
+                }
+            },
+            {
+                "name": "xaraya/scheduler",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/scheduler.git",
+                    "reference": "3314b5fd0c43984f4d42ea2fb2e5b2efc2621a86"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/3314b5fd0c43984f4d42ea2fb2e5b2efc2621a86",
+                    "reference": "3314b5fd0c43984f4d42ea2fb2e5b2efc2621a86",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2025-01-20T10:52:55+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Schedule Xaraya jobs at certain times of the day/week/month (cron)",
+                "homepage": "https://github.com/xaraya-modules/scheduler",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/scheduler/tree/2.6.1",
+                    "issues": "https://github.com/xaraya-modules/scheduler/issues"
+                }
             }
         ]
     }

@@ -181,6 +181,44 @@
                     "source": "https://github.com/xaraya-modules/changelog/tree/2.4.2",
                     "issues": "https://github.com/xaraya-modules/changelog/issues"
                 }
+            },
+            {
+                "name": "xaraya/changelog",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/changelog.git",
+                    "reference": "cdbf85e1d6475ad7b6be991792f62063af08a448"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/changelog/zipball/cdbf85e1d6475ad7b6be991792f62063af08a448",
+                    "reference": "cdbf85e1d6475ad7b6be991792f62063af08a448",
+                    "shasum": ""
+                },
+                "conflict": {
+                    "xaraya/core": "<2.4.1"
+                },
+                "time": "2025-01-14T22:37:26+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Keep track of changes to module items",
+                "homepage": "https://github.com/xaraya-modules/changelog",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/changelog/tree/2.6.0",
+                    "issues": "https://github.com/xaraya-modules/changelog/issues"
+                }
             }
         ]
     }

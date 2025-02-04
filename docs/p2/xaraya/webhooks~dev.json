@@ -8,16 +8,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/webhooks.git",
-                    "reference": "ce53e9f0a5017ceb29e6b49b474979fd247b74b3"
+                    "reference": "e1c6fd4aec1b3f600cbcb6dfd9c077f1c0650bdc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/ce53e9f0a5017ceb29e6b49b474979fd247b74b3",
-                    "reference": "ce53e9f0a5017ceb29e6b49b474979fd247b74b3",
+                    "url": "https://api.github.com/repos/xaraya-modules/webhooks/zipball/e1c6fd4aec1b3f600cbcb6dfd9c077f1c0650bdc",
+                    "reference": "e1c6fd4aec1b3f600cbcb6dfd9c077f1c0650bdc",
                     "shasum": ""
                 },
                 "require": {
-                    "symfony/http-foundation": "^7.1"
+                    "symfony/http-foundation": "^7.2"
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
@@ -25,13 +25,13 @@
                 "require-dev": {
                     "nikic/fast-route": "2.0.0-beta1",
                     "xaraya/with-laravel": "^0.6",
-                    "xaraya/with-symfony": "^0.7"
+                    "xaraya/with-symfony": "^1.0"
                 },
                 "suggest": {
                     "xaraya/with-laravel": "Integrate Xaraya with Laravel applications",
                     "xaraya/with-symfony": "Integrate Xaraya with Symfony applications"
                 },
-                "time": "2024-11-13T20:18:40+00:00",
+                "time": "2025-01-30T19:15:31+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -55,7 +55,7 @@
                 "description": "Webhooks to and from Xaraya",
                 "homepage": "https://github.com/xaraya-modules/webhooks",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/webhooks/tree/1.4.0",
+                    "source": "https://github.com/xaraya-modules/webhooks/tree/main",
                     "issues": "https://github.com/xaraya-modules/webhooks/issues"
                 }
             }

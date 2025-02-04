@@ -210,6 +210,162 @@
                     "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.0",
                     "issues": "https://github.com/xaraya-modules/apischemas/issues"
                 }
+            },
+            {
+                "name": "xaraya/apischemas",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/apischemas.git",
+                    "reference": "573ebae33a3cc4a70bdb68b8adc24e8bad2c8b63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/573ebae33a3cc4a70bdb68b8adc24e8bad2c8b63",
+                    "reference": "573ebae33a3cc4a70bdb68b8adc24e8bad2c8b63",
+                    "shasum": ""
+                },
+                "require": {
+                    "mevdschee/php-crud-api": "^2.14",
+                    "nikic/fast-route": "2.0.0-beta1"
+                },
+                "time": "2025-01-04T22:09:45+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Play with API schemas",
+                "homepage": "https://github.com/xaraya-modules/apischemas",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.1",
+                    "issues": "https://github.com/xaraya-modules/apischemas/issues"
+                }
+            },
+            {
+                "name": "xaraya/apischemas",
+                "version": "2.6.2",
+                "version_normalized": "2.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/apischemas.git",
+                    "reference": "f7e6c294ae5098a9c0f7538e5fed56c7a9d6782d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/f7e6c294ae5098a9c0f7538e5fed56c7a9d6782d",
+                    "reference": "f7e6c294ae5098a9c0f7538e5fed56c7a9d6782d",
+                    "shasum": ""
+                },
+                "require": {
+                    "mevdschee/php-crud-api": "^2.14",
+                    "nikic/fast-route": "2.0.0-beta1"
+                },
+                "time": "2025-01-06T14:12:57+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Play with API schemas",
+                "homepage": "https://github.com/xaraya-modules/apischemas",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.2",
+                    "issues": "https://github.com/xaraya-modules/apischemas/issues"
+                }
+            },
+            {
+                "name": "xaraya/apischemas",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/apischemas.git",
+                    "reference": "464448ef109188f8dd76afb5c79afac69c09a045"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/464448ef109188f8dd76afb5c79afac69c09a045",
+                    "reference": "464448ef109188f8dd76afb5c79afac69c09a045",
+                    "shasum": ""
+                },
+                "require": {
+                    "mevdschee/php-crud-api": "^2.14",
+                    "nikic/fast-route": "2.0.0-beta1"
+                },
+                "time": "2025-01-09T00:24:21+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Play with API schemas",
+                "homepage": "https://github.com/xaraya-modules/apischemas",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.3",
+                    "issues": "https://github.com/xaraya-modules/apischemas/issues"
+                }
+            },
+            {
+                "name": "xaraya/apischemas",
+                "version": "2.6.4",
+                "version_normalized": "2.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/apischemas.git",
+                    "reference": "d34168fc3fbc24edcd7a78f814d6304e1d5e8193"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/apischemas/zipball/d34168fc3fbc24edcd7a78f814d6304e1d5e8193",
+                    "reference": "d34168fc3fbc24edcd7a78f814d6304e1d5e8193",
+                    "shasum": ""
+                },
+                "require": {
+                    "mevdschee/php-crud-api": "^2.14",
+                    "nikic/fast-route": "2.0.0-beta1"
+                },
+                "time": "2025-02-03T19:22:57+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/vendor/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Play with API schemas",
+                "homepage": "https://github.com/xaraya-modules/apischemas",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/apischemas/tree/2.6.4",
+                    "issues": "https://github.com/xaraya-modules/apischemas/issues"
+                }
             }
         ]
     }

@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/keywords.git",
-                    "reference": "ba6f20df0b4501547232ee2fe2c3f2eec30c21d4"
+                    "reference": "a8fc89988bbb60adcdd6eba67a4723463db3332c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/keywords/zipball/ba6f20df0b4501547232ee2fe2c3f2eec30c21d4",
-                    "reference": "ba6f20df0b4501547232ee2fe2c3f2eec30c21d4",
+                    "url": "https://api.github.com/repos/xaraya-modules/keywords/zipball/a8fc89988bbb60adcdd6eba67a4723463db3332c",
+                    "reference": "a8fc89988bbb60adcdd6eba67a4723463db3332c",
                     "shasum": ""
                 },
-                "time": "2024-04-08T11:10:17+00:00",
+                "time": "2025-02-04T14:49:20+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -33,7 +33,7 @@
                 "description": "Assign keywords to module items (taxonomy) and look up items by keyword",
                 "homepage": "https://github.com/xaraya-modules/keywords",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/keywords/tree/master",
+                    "source": "https://github.com/xaraya-modules/keywords/tree/2.6.3",
                     "issues": "https://github.com/xaraya-modules/keywords/issues"
                 }
             }

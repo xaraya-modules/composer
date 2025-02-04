@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/skeleton.git",
-                    "reference": "4e061d059fd022af07f88d8b2f4b4083b37b5edd"
+                    "reference": "b12b71a0105124873d6d4bb0b67e42d76344f10b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/skeleton/zipball/4e061d059fd022af07f88d8b2f4b4083b37b5edd",
-                    "reference": "4e061d059fd022af07f88d8b2f4b4083b37b5edd",
+                    "url": "https://api.github.com/repos/xaraya-modules/skeleton/zipball/b12b71a0105124873d6d4bb0b67e42d76344f10b",
+                    "reference": "b12b71a0105124873d6d4bb0b67e42d76344f10b",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2024-04-08T21:10:04+00:00",
+                "time": "2025-01-24T22:51:02+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
@@ -33,7 +33,7 @@
                 "description": "Skeleton for a new Xaraya module",
                 "homepage": "https://github.com/xaraya-modules/skeleton",
                 "support": {
-                    "source": "https://github.com/xaraya-modules/skeleton/tree/1.0.0",
+                    "source": "https://github.com/xaraya-modules/skeleton/tree/main",
                     "issues": "https://github.com/xaraya-modules/skeleton/issues"
                 }
             }

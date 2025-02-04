@@ -135,6 +135,86 @@
                     "source": "https://github.com/xaraya-modules/calendar/tree/2.2.1",
                     "issues": "https://github.com/xaraya-modules/calendar/issues"
                 }
+            },
+            {
+                "name": "xaraya/calendar",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/calendar.git",
+                    "reference": "800dab9dedf522b8201e11acfbed0429c6072299"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/800dab9dedf522b8201e11acfbed0429c6072299",
+                    "reference": "800dab9dedf522b8201e11acfbed0429c6072299",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/pear-core-minimal": "^1.10"
+                },
+                "time": "2025-01-14T22:38:48+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/pear/Calendar/tests/",
+                        "/pear/Calendar/docs/",
+                        "/pear/Date/tests/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Calendar System",
+                "homepage": "https://github.com/xaraya-modules/calendar",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/calendar/tree/2.6.0",
+                    "issues": "https://github.com/xaraya-modules/calendar/issues"
+                }
+            },
+            {
+                "name": "xaraya/calendar",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/xaraya-modules/calendar.git",
+                    "reference": "4e5887f0741c33d7a0399e30cbcc2bd2c330696a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/xaraya-modules/calendar/zipball/4e5887f0741c33d7a0399e30cbcc2bd2c330696a",
+                    "reference": "4e5887f0741c33d7a0399e30cbcc2bd2c330696a",
+                    "shasum": ""
+                },
+                "require": {
+                    "pear/pear-core-minimal": "^1.10"
+                },
+                "time": "2025-01-20T10:56:58+00:00",
+                "type": "xaraya-module",
+                "autoload": {
+                    "classmap": [
+                        "./"
+                    ],
+                    "exclude-from-classmap": [
+                        "/pear/Calendar/tests/",
+                        "/pear/Calendar/docs/",
+                        "/pear/Date/tests/"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "description": "Calendar System",
+                "homepage": "https://github.com/xaraya-modules/calendar",
+                "support": {
+                    "source": "https://github.com/xaraya-modules/calendar/tree/2.6.1",
+                    "issues": "https://github.com/xaraya-modules/calendar/issues"
+                }
             }
         ]
     }

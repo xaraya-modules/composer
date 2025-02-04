@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/xaraya-modules/scheduler.git",
-                    "reference": "f990bb0b860c7824f4f3f23b65bcd3c78327361a"
+                    "reference": "ab6f15998836114e9f8512b3e489eea81796c694"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/f990bb0b860c7824f4f3f23b65bcd3c78327361a",
-                    "reference": "f990bb0b860c7824f4f3f23b65bcd3c78327361a",
+                    "url": "https://api.github.com/repos/xaraya-modules/scheduler/zipball/ab6f15998836114e9f8512b3e489eea81796c694",
+                    "reference": "ab6f15998836114e9f8512b3e489eea81796c694",
                     "shasum": ""
                 },
                 "conflict": {
                     "xaraya/core": "<2.4.1"
                 },
-                "time": "2024-04-08T11:10:22+00:00",
+                "time": "2025-01-30T19:08:35+00:00",
                 "default-branch": true,
                 "type": "xaraya-module",
                 "autoload": {
